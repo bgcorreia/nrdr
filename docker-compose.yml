@@ -1,0 +1,33 @@
+version: "3.4"
+
+services:
+
+    nginx_nrdr:
+        build: ./apache-php
+        container_name: ncrnadatabases_webserver
+        restart: always
+        volumes:
+            - ./front_files:/var/www/html
+        depends_on:
+             - db_nrdr
+        networks:
+            - webserver
+            - db
+
+    db_nrdr:
+        build: ./db_config
+        container_name: nrdr_db
+        restart: always
+        volumes:
+            - ./db_files:/var/lib/mysql
+        environment:
+            - MYSQL_RANDOM_ROOT_PASSWORD=YES
+            - MYSQL_DATABASE=${DB_NAME}
+            - MYSQL_USER=${DB_USER}
+            - MYSQL_PASSWORD=${DB_PASS}
+        networks:
+             - db
+
+networks:
+    db:
+    webserver:

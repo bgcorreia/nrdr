@@ -1,0 +1,12 @@
+Homo sapiens
+Rattus norvegicus
+Mus musculus
+Danio rerio
+Takifugu rubripes
+Ciona intestinalis
+Drosophila melanogaster
+Caenorhabditis elegans
+Arabidopsis thaliana
+Macaca mulatta 
+Bos taurus
+Ovis aries

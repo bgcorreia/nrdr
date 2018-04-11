@@ -1,0 +1,2531 @@
+Database Name: Condor
+RNA Type: CNE
+Overview: Condor is a database of Conserved Non-coding Elements (CNE) extracted from multiple alignments of orthologous genomic regions of fugu and mammalian genomes. There are two types of information stored in the database: conservation information in vertebrates, obtained from the alignments, and information related to experimentally validated CNEs acting as putative promoter enhancers in different samples/tissues of zebrafish embryos. 
+Search Methods:
+	Similarity: search sequences against the Condor CNEs or genomic assemblies used in multiple alignment. The BLAST program is used in both searches.
+	Keyword: search by CNE accession code, gene name, SPTR accession, Ensembl accession, GO accession etc.
+	TAG: search by gene name or CNEs in gene expression data in several tissues (i.e., brain, eye, muscle, blood, etc.) and stages (i.e., 24-30 hfp). The user can specify the minimum percentage of in at least N% of expressing embryos.
+Source: Experiments (in vivo assay - zebrafish embryo), Fugu Information Network, Ensembl and In house analysis (BLAST, Repeat-Masker, EntropyRep, MLAGAN/SLAGAN and VISTA programs).
+Information Source: Experimental, In silico annotation.
+Information Content: Alignment, Annotation, Cis-regulatory elements, Conserved Non-coding Elements, Developmentalregulators, Embryos (zebrafish), Expression, Organ, Orthologs, Sequence, Stage, Tissue.
+Reference: Woolfe et al., 2007
+PubmedID: 17760977.
+Year: 2007
+Multiple search: Yes
+Download: BED, FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu).
+URL: http://condor.nimr.mrc.ac.uk/ 
+
+Database Name: TFCONES
+RNA Type: CNE
+Overview: Transcription Factor genes & associated COnserved Noncoding ElementS (TFCONES) is a database of human transcription factors and their homologs in the genomes of mouse and fugu. It also includes CNEs (Conserved Non-coding Elements) identified in the orthologous set of TF-encoding genes in the same three genomes.
+Search Methods:
+	Similarity: search sequences using the BLAST program against the human-mouse or human-fugu CNEs.
+	Keyword: search by gene name, identifier or description (e.g., "Hox*", "ENSG00000001167", "Myc proto-oncogene");
+	TAG: search by genome, alignment type and transcription factor family.
+Source: Messina et al., 2004, Ensembl, GenBank, RefSeq Protein, TRANSFAC, Rfam, miRBase, Gene Ontology, In house analysis (INPARANOID, RepeatMasker, MLAGAN, VISTA, TESS).
+Information Source: Experimental, In silico annotation.
+Information Content: Alignment, Conserved Non-coding Elements, Gene Ontology, Orthologs, Protein Domains, Transcription Factor.
+Reference: Lee et al., 2007
+PubmedID: 18045502.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Takifugu rubripes (Fugu).
+URL: http://tfcones.fugu-sg.org/
+
+Database Name: deepBase
+RNA Type: Multiple classes
+Overview: deepBase is a resource of next generation sequencing data of small RNA libraries using different technological platforms obtained from several model organisms (Homo sapiens, Mus musculus, Gallus gallus, Ciona intestinalis, Drosophila melanogaster, Caenorhabditis elegans and Arabidopsis thaliana). It stores information related to different small and long RNA classes.
+Search Methods:
+	Similarity: search by the exact read sequence extracted from deep sequencing data, or by similarity search against the seven genomes. The BLAST program is used for similarity searches. 
+	Keyword: search by ncRNA name or by minimum read number.
+	TAG: search by ncRNA Type, organism/clade/genome, database and by small RNA library.
+	Genomic Location: search by chromosome location and organism. Searches can be restriced to a specific ncRNA type (e.g. rasRNA, pasRNA or easRNA).
+	Density of ncRNAs: search using the genomic location or by organism and minimum read number.
+Source: Literature, NCBI GEO, Ensembl, UCSC, miRBase, snoRNABase (Human), Plant snoRNA Database (Arabidopsis), Genomic tRNA Database, The Arabidopsis Information Resource (TAIR), prediction tools (miRDeep, snoSeeker).
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Annotation, Cell type, Cluster, Expression, Next-generation data, Other RNAs, Platform, Prediction tools, Reads, Sequence, small RNA Library, Tissue.
+Reference: Yang et al., 2010
+PubmedID: 19966272.
+Year: 2010
+Multiple search: Yes
+Download: BED, FASTA.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress).
+URL: http://deepbase.sysu.edu.cn/
+
+Database Name: fRNAdb
+RNA Type: Multiple classes
+Overview: The Functional RNA Database (fRNAdb) is a collection of non-coding RNAs obtained from public resources, including different transcriptome projects. It also provides an UCSC Genome Browser mirror of non-coding elements data.
+Search Methods:
+	Similarity: search sequences using the BLAST program. 
+	Keyword: search by ncRNA type (e.g. miRNA, snoRNA) and other keywords such as disease, organism and tissue (e.g. "miRNA oncogene human").
+	Tabular: search by catalog item (e.g. Length, Data source, Sequence Ontology, Taxonomy, MicroArray, OMIM, Disease, Anatomy, Biological Process, Molecular Function, Cellular Component or RNA Name).
+Source: H-invDB, FANTOM3, miRBase, NONCODE, Rfam, RNAdb and snoRNA-LBME-db, NCBI GEO and Sequence Ontology.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Biological Process, Cellular Component, Disease, Expression, Molecular Function, RNA Name, Sequence, Taxonomy, Tissue.
+Reference: Kin et al., 2007; Mituyama et al., 2009
+PubmedID: 17099231, 18948287.
+Year: 2009;2007
+Multiple search: No
+Download: BED, GTF, PSL, FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar) and 26796 others.
+URL: http://www.ncrna.org/frnadb
+
+Database Name: ncRNAdb
+RNA Type: Multiple classes
+Overview: The Noncoding RNA Database (ncRNAdb) is a repository that centralizes the information concerning regulatory noncoding transcripts, excluding housekeeping RNAs, microRNAs and snoRNAs. There is also information of RNAs known to be related to different important biological roles, such as diseases, stress responses, imprinted transcripts and dosage compensation.
+Search Methods:
+	Similarity: search sequences using the BLAST program. 
+	Keyword: search by organism, transcripts/RNA symbol or GenBank accession number.
+Source: Genbank, H-invDB, FANTOM3, Rfam, UCSC Genome Browser.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Disease, Dosage compensation, Imprinted transcripts, Nervous cells, Sequence, Stress.
+Reference: Szymanski et al., 2007
+PubmedID: 17169980.
+Year: 2007
+Multiple search: No
+Download: FASTA.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar), Aotus trivirgatus, Cavia porcellus (Guinea Pig), Cricetulus griseus (Chinese Hamster) and 75 others.
+URL: http://ncrnadb.trna.ibch.poznan.pl/
+
+Database Name: ncRNAimprint
+RNA Type: Multiple classes
+Overview: ncRNAimprint is a database of mammalian (human, rhesus, mouse, rat, cow, sheep, pig, wallaby and opossum) imprinted small and long noncoding RNAs. It provides information of imprinted ncRNA-related diseases, ICR (imprinting control regions), as well as deep sequencing data in imprinted regions.
+Search Methods:
+	Keyword: search by name, tissue, disease, description, associated ncRNA/Region, OMIM number, location, controlled gene, gene/ncRNA name in one of four categories (e.g. ncRNA, disease, imprinted region or ICR).
+	TAG: search by species, chromosome, methylated allele, category, status or expressed allele in one of four categories (e.g. ncRNA, disease, imprinted region or ICR).
+	Tabular: search by name, alias, organism, chromosome, position, status, methylated/expressed allele and associated ncRNAs in one of four categories (e.g. ncRNA, disease, imprinted region or ICR).
+Source: Literature (PubMed), NCBI (GEO and GenBank), Geneimprint, Catalogue of Imprinted Genes, WAMIDEX, snoRNABase, miRBase, miR2Disease, OMIM, UCSC, In house analysis (Bowtie and miRDeep and in-house Pascal programs).
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Annotation, Deep sequence data, Disease, Epigenetic, Expression, Gene, Genomic Imprinted, Imprinted, Imprinted Control Regions, Next-generation sequencing, Sequence.
+Reference: Zhang et al., 2010
+PubmedID: 20801769.
+Year: 2010
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar), Macropus rufogriseus (Kangaroo), Monodelphis domestica.
+URL: http://rnaqueen.sysu.edu.cn/ncRNAimprint/
+
+Database Name: NONCODE
+RNA Type: Multiple classes
+Overview: NONCODE is a database of ncRNA (excluding tRNAs and rRNAs) extracted from Genbank/PubMed entries after manually curated analysis. The main RNAs classes include miRNA, snoRNA, snRNA, tmRNA, SRP RNA and gRNA. There is also information of ncRNAs related to disease, imprinting, repeats, sex specific, species specific, stage specific, stress induced, stress repressed and tissue specific ncRNAs.
+Search Methods:
+	Similarity: search sequences using the BLAST program. 
+	Keyword: search by ncid, uniqid, accession number, class alias, name, role, mechanism, location, pfclass, specific, note, organism, molecule type, division, definition, refid, authors, title, journal, medline id, pubmed id, or ncRNA name. Keyword searches are restricted by the TAG options.
+	TAG: search by ncRNA, uniqncRNA, nucleotide or reference.
+	Tabular: search by organism, ncid, uniqid, accession, class, pfclass name (in Browse DB section); or in a list of 9 specific groups (disease related ncRNA, imprinted ncRNA, repeat ncRNA, sex specific ncRNA, species specific ncRNA, stage specific ncRNA, stress induced or repressed ncRNA, or tissue specific ncRNA).
+Source: GenBank, Literature and PubMed.
+Information Source: Experimental, In silico annotation, Manual curation.
+Information Content: Annotation, Cellular Process, Disease, Imprinted, ncRNA classification, Process Function, Repeat, Sequence, Sex specific, Species specific, Stage, Stress, Tissue.
+Reference: He et al., 2008; Liu et al., 2005
+PubmedID: 15608158, 18000000.
+Year: 2008;2005
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar) and 899 others.
+URL: http://www.noncode.org/ 
+
+Database Name: Rfam
+RNA Type: Multiple classes
+Overview: The RNA family database (Rfam) is a collection of RNA families represented by multiple sequence alignments, covariance models and profile Stochastic Context-Free Grammars.It stores information related to sequence, secondary structure, taxonomy, alignment and phylogenetic tree of different organisms. 
+Search Methods:
+	Similarity: search sequences against Rfam data. First, a pre-search with the program WU-BLAST is performed, followed by a secondary structural search using covariance models with the INFERNAL package.
+	Keyword: search by RNA family name, EMBL ID or accession number, ncRNA name/class, NCBI taxonomic classes.
+	Tabular: search by ID, accession, type, seed/full, average length, sequence identity and description (in Rfam families or families with 3D structures); by species, kingdom, families, region or genome size (in genomes search); ID, accession, number of families or description (in clans search); or by number of structures (in families with 3D structures.
+Source: Literature, SRP, European ribosomal RNA database, 5S Ribosomal RNA database, RNase P database, uRNA database, tmRNA database.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Alignment, Annotation, Covariance Model, Families of RNA, Sequence, Structure, Taxonomy.
+Reference: Gardner et al., 2011; Gardner et al., 2009; Griffiths-Jones et al., 2005; Griffiths-Jones et al., 2003
+PubmedID: 12520045, 15608160, 18945806, 18953034, 21062808.
+Year: 2011;2009;2008;2005;2003
+Multiple search: No
+Download: GFF, Stockholm, FASTA, Other.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Brassica rapa, Glycine Max (Soybean), Medicago truncatula (Barrel Medic), Oryza sativa (Rice), Vitis vinifera, Carica papaya (Papaya), Ricinus communis (Castor bean), Lotus japonicus, Theobroma cacao (Cacao), Populus trichocarpa, Solanum lycopersicum (Tomato
+), Brachypodium distachyon, Sorghum bicolor (Sorghum), Triticum aestivum (Bread wheat) and 22 others.
+URL: http://rfam.sanger.ac.uk/
+
+Database Name: RNAdb
+RNA Type: Multiple classes
+Overview: RNAdb is a sequence and annotation database of mammalian ncRNAs (excluding housekeeping ncRNAs). There are distinct datasets with information obtained through computational prediction, transcriptome projects and literature-based manual curation.
+Search Methods:
+	Similarity: search sequences using the BLAST program.
+	Keyword: search by terms which it can be different for each dataset (e.g. ncRNA type, sequence ID, description, Genbank accession, species or source).
+	TAG: search by dataset (see source item) and filter options (e.g. species, noncoding category, development).
+	Tabular: search by ID, description, Genbank accession/Reference, species or data source.
+Source: miRBase, H-invDB, FANTOM3, snoRNA-LBME-db, Antisense ncRNA Pipeline, piRNAs, RNAz, Non-coding RNA Search, Evofold, Literature.
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Literature, Mammalian, ncRNAs from Prediction data, Transcription.
+Reference: Pang et al. 2007; Pang et al. 2005
+PubmedID: 15608161, 17145715.
+Year: 2007;2005
+Multiple search: Yes
+Download: BED, FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Bos Taurus (Cattle), Pan troglodytes (Chimpanzee).
+URL: http://research.imb.uq.edu.au/rnadb/
+
+Database Name: GISSD
+RNA Type: Ribozyme
+Overview: Group I Intron Sequence and Structure Database (GISSD) is database of group I introns on bacteria, lower eukaryotes and plants. GISSD contains consensus structures for each group I subgroup based on high quality alignments. Each intronic structure and alignment stored in the database was manually curated based on previous predictions using the software INFERNAL (Nawrocki et al., 2009). It also stores taxonomy information from GenBank and 3-D structures for some introns.
+Search Methods:
+	Keyword: search by intron name, host gene name, organism, phylogeny (kingdom, order, phylum, etc) or by accession number. The query can also be filtered according to intron subgroups, CDS, 3D structure, host gene or cell location (e.g. nucleus, chloroplast and mitochondrion).
+	TAG: search by intron group (e. g., IA, IB etc).
+Source: NCBI/GenBank, CRW, Rfam, PDB and Prediction tools (RNAstructure, INFERNAL, RnaViz).
+Information Source: In silico annotation.
+Information Content: Alignment, Catalysis, Cell location, Classification, Intron type, Phylogeny, Prediction tools, Sequence, Structure.
+Reference: Zhou et al., 2007
+PubmedID: 17942415.
+Year: 2008
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://www.rna.whu.edu.cn/gissd/
+
+Database Name: Mobile Group II Introns
+RNA Type: Ribozyme
+Overview: The Mobile Group II Introns is a database with information related to group II introns from several bacterial and lower eukaryotic organellar genomes. The main data available is related to secondary structure predictions, open reading frames and phylogenetic information.
+Search Methods:
+	Tabular: search by ORF Name, host gene, locus, ORF domains, size (aa), ORF class, intron structure type (in Bacterial Group II introns by Organism search); by host gene, locus, size, intron structure type (in ORF-less bacterial introns search); by intron RNA domains, intron ORF domains, size, closest relative, locus, notes (in Fragments of introns search); by organism class, host gene, intron, ORF domains, size (aa), ORF fused with upstream exon (in Mitochondrial or Chloroplast Group II introns by Organism search); or by species, accessionnumber.
+Source: GenBank and in-house analysis.
+Information Source: In silico annotation.
+Information Content: Alignment, Chloroplast, Evolution, Host Gene, Introns fragments, Locus, Mitochondrial, Models (3D Model), ORF, Phylogeny, Sequence, Structure.
+Reference: Kowarsch et al., 2011
+PubmedID: 12520040.
+Year: 2003
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Glycine Max (Soybean), Neurospora crassa, Saccharomyces cerevisiae, Zea mays, Kluyveromyces lactis, Candida parapsilosis, Podospora anserina, Marchantia polymorpha, Amoebidium parasiticum, Allomyces macrogynus, Chara vulgaris, Porphyra purpurea, Pylaiella littoralis, Mesostigma viride and 13 others.
+URL: http://www.fp.ucalgary.ca/group2introns/
+
+Database Name: lncRNAdb
+RNA Type: Long RNA
+Overview: lncRNAdb is a database specific of annotation of eukaryotic long non-coding RNAs (lncRNAs). This repository contains information of lncRNAs in different functional categories (e.g. disease, pathogen-related, imprinted, etc).
+Search Methods:
+	Similarity: search by sequence consensus pattern (e.g. GAT(U)C).
+	Keyword: search by lncRNA name, description (e.g. terms as disease, tissue etc).
+	TAG: search by species or function.
+Source: UCSC Genome Browser, NRED (Noncoding RNA Expression Database), Literature.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Annotation, Associated Conservation, Bifunctional, Components, Disease, Eukaryota, Expression, Imprinted, Long RNA, Pathogen, Sequence.
+Reference: Amaral et al., 2011
+PubmedID: 21112873.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar), Monodelphis domestica, Pan troglodytes (Chimpanzee) and 46 others.
+URL: http://lncrnadb.com/
+
+Database Name: NRED
+RNA Type: Long RNA
+Overview: ncRNA Expression Database (NRED) is a database of expression data on human and mouse long ncRNAs from various sources (e.g. microarray and in situ hybridization (ISH) data in different experimental conditions). The database includes a cross-referencing annotation that integrates expressed data with secondary structure predictions, imprinted expression data and conservation.
+Search Methods:
+	Keyword: search by probe terms or probe match score (max and min.).
+	TAG: search by platform (e.g. Allen Brain Atlas, GNF Atlas or Compugen Array), probe fields (e.g. probe, sense/antisense genomic context or several target options such as: spliced, imprinted, contains RNAz/PhastCons or overlap TSS/sno/miRNA,).
+Source: Local Experiments, GNF, SynAntlas, Allen Brain Atlas, Literature, MGI, GenBank, RefSeq, UniGene, UCSC Genome Browser, miRBase, RNAz, PhastCons.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Condition, Expression, Imprinted, PhastCons, Platform, Probe Fields, Sense/Antisense, Sequence, Structure, Transcription Start Site.
+Reference: Dinger et al., 2008
+PubmedID: 18829717.
+Year: 2009
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://jsm-research.imb.uq.edu.au/nred/
+
+Database Name: CircuitsDB
+RNA Type: miRNA
+Overview: CircuitsDB is a database of transcriptional regulatory networks involving miRNAs and their targets. The database contains information of particular transcription factors that regulate miRNA and/or coding genes, as well as post-transcriptional networks (miRNA-target gene interaction), identified through a bioinformatic pipeline applied to human and mouse genomes.
+Search Methods:
+	Keyword: search free keywords including by coding gene name.
+	TAG: search by organism, transcription factor, miRNA name (e.g. pre or mature) and gene name.
+Source: In house ab initio pipeline (Re et al, 2009), Ensembl database release 46, miRBase v9.2, Transfac database, Xie et al, 2005 data, TargetScan, TargetMiner, Gene Ontology database, list of oncomiRs (Esquela-Kerscher et al, 2006; Zhang et al, 2007; Bandyopadhyay et al, 2010),Cancer Gene Census catalogue, OMIM catalogue, HMDD miRNA-disease database, Tarbase, miRecords, TransmiR, Experimental Target data (Zeller et al, 2006), Expression data (
+Information Source: In silico annotation.
+Information Content: 3'UTR Regions, Annotation, Binding site, Expression, Fee-Forward regulatory loops, Gene, Gene Ontology, Network, Post-transcriptional network, Promoter Regions, Regulatory network, Sequence, Target gene, Tissue, Transcription Factor, Transcriptional network, Wiki.
+Reference: Friard et al, 2010
+PubmedID: 20731828.
+Year: 2010
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://biocluster.di.unito.it/circuits/
+
+Database Name: CoGemiR
+RNA Type: miRNA
+Overview: Comparative Genomic MicroRNA (CoGemiR) is a database of metazoan evolutionary conserved microRNAs. It provides information related to the miRNA host gene (e.g., exonic, intronic, etc), genomic location and expression of both experimentally confirmedand newly predicted miRNAs.
+Search Methods:
+	Keyword: search by one or more miRNA names (e.g., hsa-miR-373 or let-7).
+	TAG: search by a multiple option tag of miRNA/Family and Species/Clade where the user can mix the selection based on a series of annotations (e.g., conservation, number of intron/exon where the miRNA is inserted, genomic coordinates, etc).
+Source: miRBase, Ensembl, SymAtlas and in-house pipeline.
+Information Source: In silico annotation.
+Information Content: Alignment, Annotation, Conservation, Expression, Localization, Sense/Antisense, Sequence.
+Reference: Maselli et al., 2008
+PubmedID: 18837977.
+Year: 2008
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Monodelphis domestica, Pan troglodytes (Chimpanzee), Cavia porcellus (Guinea Pig) and 22 others.
+URL: http://cogemir.tigem.it/
+
+Database Name: dbDEMC
+RNA Type: miRNA
+Overview: database of Differentially Expressed MiRNAs in human Cancers (dbDMEC) is a database of potentially cancer-related human miRNAs, based on computational analysis of differentially expressed miRNAs data.
+Search Methods:
+	Similarity: search using the BLAST program. 
+	Keyword: search by miRNA name or miRBase accession number.
+	TAG: search by cancer type and by miRNA name.
+Source: Gene Expression Omnibus (GEO), In house analysis (Expression data analysis, R project/Bioconductor, SAM method) and Literature.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Annotation, Cancer, Cell line, Disease, Expression, Tissue, Tumor.
+Reference: Yang et al., 2010
+PubmedID: 21143814.
+Year: 2010
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://159.226.118.44/dbDEMC/
+
+Database Name: dbSMR
+RNA Type: miRNA
+Overview: Database of SNPs affecting miR Regulation (dbSMR) is a database of predicted and validated miRNA binding sites (within 200 nucleotides) and correlated SNPs in human genome.
+Search Methods:
+	Keyword: search by SNP id, target transcript id, target gene name, and miRNA name.
+	TAG: target gene name or miRNA name.
+Source: Ensembl, miRBase, TarBase, HapMap Phase II (Haplotter website), Target Prediction Tool (miRanda, RNAHybrid, TargetScan), Prediction secondary structure (RNAfold)
+Information Source: In silico annotation.
+Information Content: Binding site, Gene, Polymorphism, Predicted secondary structure, SNP, Target gene, Target transcript.
+Reference: Hariharan et al., 2009.2009
+PubmedID: 19371411.
+Year: 2009
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://miracle.igib.res.in/polyreg/
+
+Database Name: dPORE
+RNA Type: miRNA
+Overview: The Dragon database on Polymorphic Regulation of human miRNA genes (dPORE - miRNA) is a database of effects of SNPs in the transcription factor binding sites of promoter regions of miRNA genes.
+Search Methods:
+	Keyword: search by miRNA name, disease, protein (target), pathway, SNP id (e.g. rs73058952) or transcription factor name
+	TAG: search by KEGG pathway ID or name.
+	Tabular: search by miRNA name.
+	Genomic Location: search by genomic region.
+Source: Literature (Corcoran et al., 2009; Fujita et al., 2008; Marson et al., 2008; Ozsolak et al., 2008; Zhou et al., 2007), UCSC Genome browser, In house analysis (BIOBASE MATCH program, TRANSFAC matrix), PhenomiR, Tarbase, KEGG pathways.
+Information Source: In silico annotation, Literature.
+Information Content: Annotation, Disease, Gene, Pathway, Polymorphism, Promoter, Sequence, SNP, Target, Transcription Factor, Transcription Factor Binding Site.
+Reference: Schmeier et al., 2011
+PubmedID: 21326606.
+Year: 2011
+Multiple search: Yes
+Download: Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://apps.sanbi.ac.za/dpore/
+
+Database Name: ExprTargetDB
+RNA Type: miRNA
+Overview: ExprTargetDB is a catalogue of miRNA-targets and expression information extracted from an integration of computational and experimental approaches. This database has also miRNA target gene relationship based on HapMap samples.
+Search Methods:
+	Keyword: search by gene or miRNA name.
+	TAG: search by prediction algorithm.
+Source: HapMap (LCL - Lymphoblastoid Cell Lines), experimental data on miRNA expression and target genes (Affymetrix Human Exon array, miRNeasy Qiagen Kit etc), Target Prediction Tools (miRanda, Target Scan and PicTar), TarBase, In house analysis (R scripts etc), ExprTarget Tool. 
+Information Source: Experimental, In silico annotation.
+Information Content: Expression, HapMap samples, Target experimental, Target gene.
+Reference: Gamazon et al., 2010
+PubmedID: 20975837.
+Year: 2010
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.scandb.org/apps/microrna/
+
+Database Name: HMDD
+RNA Type: miRNA
+Overview: The Human MicroRNA and Disease Database (HMDD) is a repository of miRNA-associated diseases, obtained by manual curation from literature data. The authors designed a microRNA-associated disease network to perform the analysis of relationships between miRNA and disease. Tissue expression profiles are also available.
+Search Methods:
+	Keyword: search by miRNA, disease or tissue name.
+	TAG: search by miRNA, disease or tissue in a pre-defined list.
+Source: Liang et al., 2007, dbSNP (UCSC Genome Browser), miRBase.
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Disease, Expression, Gene, Network, Tissue.
+Reference: Lu et al., 2008
+PubmedID: 18923704.
+Year: 2008
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://202.38.126.151/hmdd/mirna/md/
+
+Database Name: HOCTARdb
+RNA Type: miRNA
+Overview: Host gene Opposite Correlated TARgets (HOCTARdb) is a database of intragenic microRNAs and their target genes in the human genome. It stores information for all 290 miRNAs analyzed by the HOCTAR tool for target prediction.
+Search Methods:
+	Keyword: search by target gene name.
+	TAG: search by microRNA name.
+Source: miRBase, NCBI GEO (microarray dataset), Target Prediction Tool (PicTar, TargetScan and miRanda), GO tool analysis (DAVID web-tool).
+Information Source: Experimental, In silico annotation, Manual curation.
+Information Content: Expression, Expression profiles, Gene, Gene Ontology, Intragenic, Target gene.
+Reference: Gennarino et al., 2011
+PubmedID: 21435384.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://hoctar.tigem.it/ 
+
+Database Name: IntmiR
+RNA Type: miRNA
+Overview: IntmiR is a manually-curated database for intronic microRNAs related to diseases available in literature for human and mouse genomes. It stores information about the microRNAs, their target transcripts, correlated pathways, tissues and diseases.
+Search Methods:
+	Keyword: search by gene symbol and miRNA name.
+	TAG: search combining different datasets for microRNA targets.
+Source: Literature and KEGG. 
+Information Source: Literature, Manual curation.
+Information Content: Disease, Intronic, Pathway, Target gene.
+Reference: Girijadevi et al., 2011
+PubmedID: 21423893.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://rgcb.res.in/intmir/ 
+
+Database Name: mESAdb
+RNA Type: miRNA
+Overview: microRNA expression and sequence analysis database (mESAdb) is a repository of miRNA sequence and expression multivariate analysis with information on target gene function, expression patterns and human diseases. It also includes some meta-analysis tools to help the user visualize and compare miRNA motif/functional/expression data.
+Search Methods:
+	Keyword: search by miRNA name (in miRNA search) or motif pattern (in motif & function search). 
+	TAG: search by microarray data set (in motif and expression search); miRNA pattern (e.g. motif, miRNA list) or region (e.g. 1-8 nucleotide - in motif & function search); or expression dataset, GO domains/terms, KEGG pathways, HUGE terms or Targets (in miRNA search).
+Source: miRBase, GEO, KEGG, Gene Ontology, HUGE Navigator Disease, Ensembl Gene IDs, Tools (MEME motif, MicroCosm Target, BioMart).
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Biological Process, Components, Expression, Functional analysis, Gene, Gene Ontology, KEGG, Motif, Multivariate analysis, Sequence, Tissue.
+Reference: Kaya et al., 2011
+PubmedID: 21177657.
+Year: 2011
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Danio rerio (Zebrafish).
+URL: http://konulab.fen.bilkent.edu.tr/mirna/ 
+
+Database Name: MicroPC
+RNA Type: miRNA
+Overview: MicroPC is a database of miRNA and their targets in plant genomes, obtained from literature and EST data analysis. MicroPC displays comparative views of miRNAs in different plant species and also predicts potential targets from miRNA input.
+Search Methods:
+	Similarity: search sequences usingthe BLAST program against MicroPC data.
+	Keyword: search by miRNA name/AC (e.g. MIMAT0000166) or ID (e.g. ath-miR156a) or sequence (in miRNA search); miRNA name or UniProt accession number (in Target search);
+	TAG: search by Plant species (in miRNA/Target search) and Gene Ontology (in Target search).
+Source: miRBase, PlantGDB, Rfam, UniProtKB/Swiss-Prot/TrEMBL, secondary structure predictions with UNAFold.
+Information Source: Experimental, In silico annotation, Manual curation.
+Information Content: Annotation, Conservation, Gene Ontology, Plant, Predicted secondary structure, Sequence, Structure, Target gene.
+Reference: Mhuantong and Wichadakul, 2009
+PubmedID: 19660144.
+Year: 2009
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Brassica rapa, Glycine Max (Soybean), Lycopersicon esculentum, Medicago truncatula (Barrel Medic), Oryza sativa (Rice), Populus tremula, Vitis vinifera, Pinus taeda, Physcomitrella patens, Selaginella moellendorffii, Brassica napus, Carica papaya (Papaya), Ricinus communis (Castor bean), Arachis hypogaea and 112 others.
+URL: http://konulab.fen.bilkent.edu.tr/mirna/
+
+Database Name: microRNA.org
+RNA Type: miRNA
+Overview: microRNA.org is a database for miRNA expression profiles, target genes and binding sites information for diverse human, mouse, rat, Drosophila and C. elegans tissues. The website can also be used for microRNA target prediction using the miRanda program. 
+Search Methods:
+	Keyword: search by miRNA name or target mRNA (e.g. gene name).
+	TAG: search by species or tissue.
+Source: miRBase, UCSC Genome Browser, Landgraf et al., 2007, miRanda.
+Information Source: Experimental, In silico annotation.
+Information Content: Binding site, Expression, Gene, Target gene, Tissue.
+Reference: Betel et al., 2008
+PubmedID: 18158296.
+Year: 2008
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans.
+URL: http://www.microrna.org/ 
+
+Database Name: microTranspoGene
+RNA Type: miRNA
+Overview: microTranspoGene is a database of human, mouse, zebrafish and nematode microRNAs derived from transposable elements (TEs). It stores information of sequenced transcripts or structure-predicted microRNAs in which the hairpin structures are originated by the insertion of transposable elements.
+Search Methods:
+	TAG: search by organism or a specific pre-microRNA.
+Source: miRBase, UCSC Genome Browser, RefSeq, Swiss-Prot, Galaxy, Borchert et al., 2006
+Information Source: Experimental, In silico annotation.
+Information Content: Gene, Localization, Repeat, Sequence, Transposable Elements.
+Reference: Levy et al., 2007
+PubmedID: 17986453.
+Year: 2008
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Danio rerio (Zebrafish), Caenorhabditis elegans.
+URL: http://transpogene.tau.ac.il/microTranspoGene.html 
+
+Database Name: mimiRNA
+RNA Type: miRNA
+Overview: mimiRNA is a database of miRNA expression profile data across different tissues and cell lines. It also stores information related to particular genes and their correlation with miRNAs (i.e. miRNA targets, co-regulated miRNA-mRNA pairs). 
+Search Methods:
+	Keyword: search from a list of multiple microRNAs or target genes.
+	TAG: search by tissue or cell type, species, microRNA name and mRNA gene.
+Source: miRNA Atlas, qPCR data (Gaur et al., 2007; Lee et al., 2007), GEO, 564 Affymetrix GeneChip Human Genome U133 Plus 2.0 Arrays, eVOC (Expressed Sequence Annotation for Humans), Hypertext cell line database and ExParser algorithm.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Cell type, Classification, Expression, Expression profiles, GeneChip, qPCR, Target gene, Tissue.
+Reference: Ritchie et al., 2009
+PubmedID: 19933167.
+Year: 2010
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://mimirna.centenary.org.au/ 
+
+Database Name: MIR@NT@N
+RNA Type: miRNA
+Overview: microRNA and Transcription Factor Analyses Network (MIR@NT@N) is a database that integrates information related to transcription factors, microRNAs and target genes extracted from public datasets. It generates networks for 12 vertebrates based on a graph approach to predict TFs acting on protein-coding or miRNA transcripts, or miRNAs acting on messenger RNAs.
+Search Methods:
+	Keyword: search by gene, miRNA or transcription factor name.
+	TAG: search by species.
+Source: In-house pipeline, PAZAR, JASPAR, miRBase, Ensembl, oPOSSUM, CpGcluster, CpGProd, MicroCosm, microRNA.org, UniHI.
+Information Source: In silico annotation, Literature.
+Information Content: Gene, Network, Regulatory network, Target gene, Target miRNA, Transcription Factor.
+Reference: Bchec et al., 2011
+PubmedID: 21375730.
+Year: 2009
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Xenopus tropicalis.
+URL: http://mironton.uni.lu/
+
+Database Name: miR2Disease
+RNA Type: miRNA
+Overview: miR2Disease is a manually curated repository of microRNAs and related human diseases. It includes information on miRNA-disease relationship, miRNA name, putative targets, diseases and literature references. On the website researchers can submit their own microRNA-to-disease relationships.
+Search Methods:
+	Keyword: search by miRNA name (e.g. hsa-miR-373) or disease name (e.g. breast cancer).
+	TAG: search by validated targets from miR2Disease/TarBase data by gene name (e.g. BCL2, CLOCK).
+Source: PubMed, Disease ontology and Tarbase.
+Information Source: Literature, Manual curation.
+Information Content: Annotation, Disease, Expression, Gene, Target gene.
+Reference: Jiang et al., 2009
+PubmedID: 18927107.
+Year: 2011
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.mir2disease.org/
+
+Database Name: miRBase
+RNA Type: miRNA
+Overview: miRBase is one of the central repositories of microRNA, with information based on published experimental data and in-house annotation. The database is divided into three parts: (i) miRBase Registry, which provides a nomenclature for functional annotation of miRNAs; (ii) miRBase Targets, which contains predicted miRNA target genes; and (iii) miRBase Sequence, which contains published miRNA sequences and their annotation. The release 16 contains some dataset obtained from next generation sequencing.
+Search Methods:
+	Similarity: search sequences using the BLAST or SSEARCH.
+	Keyword: search by miRNA accession or name (general search); or by miRNA id, gene name, Ensembl identifier or GO term (target search).
+	TAG: search by genome or GO class.
+	Tabular: search by species.
+	Genomic Location: choosing for an organism and chromosome location.
+	Density of ncRNAs: for a cluster inter-miRNA in an organism according to different distances between each miRNA. There is also an option of genomic regions (e.g. CpG island, EST, cDNA, TFBS) surrounding miRNA precursors.
+Source: Literature, Ensembl, UCSC Genome Browser.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Cluster, Evidence, Expression, Next-generation sequencing, Nomenclature of miRNA, Sequence, Structure, Target gene, Tissue.
+Reference: Griffiths-Jones et al., 2008
+PubmedID: 14681370, 16381832, 17991681, 20205188, 21037258.
+Year: 2011;2010;2008;2006;2004
+Multiple search: Yes
+Download: GFF, EMBL, FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar) and 142 others.
+URL: http://www.mirbase.org/
+
+Database Name: miRDB 
+RNA Type: miRNA
+Overview: miRDB is a database of miRNA target predictions and functional annotations. There is a wiki editing interface that allows anyone to contribute on miRNA functional annotation. Genome-wide target prediction is based using an in-house algorithm (Wang and El Naqa 2008).
+Search Methods:
+	Keyword: search by multiple miRNA or gene names.
+	TAG: search by species, or target gene id (GenBank accession, NCBI Gene ID or Gene Symbol.
+	Tabular: search by pathway (miRNA regulators).
+Source: miRBase, Genbank, PANTHER, AuthorÃ¢â‚¬â„¢s target prediction tool (Wang and El Naqa 2008), Liang et al., 2007.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Gene, Pathway, Sequence, Structure, Target gene.
+Reference: Wang, 2008
+PubmedID: 18426918.
+Year: 2008
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Gallus gallus (Chicken).
+URL: http://www.mirdb.org/
+
+Database Name: mirDIP
+RNA Type: miRNA
+Overview: microRNA Data Integration Portal (mirDIP) is a database that integrates twelve prediction datasets from different databases and tools for microRNA and target prediction. It combines the results of the application of various microRNA prediction algorithms to different microRNA target datasets in order to identify signaling-pathways associated miRNAs. It allows the user to explore all these data by filtering the information source according to particular characteristics of interest.
+Search Methods:
+	Keyword: search by gene symbol and miRNA name.
+	TAG: search combining different datasets for microRNA targets.
+Source: KEGG, Target Prediction Tools (DIANA-microT, microCosm Targets, microRNA.org, picTar, PITA, RNA22, TargetScan, Miranda), Reactome and literature. 
+Information Source: In silico annotation, Literature.
+Information Content: Network, Regulatory network, Target gene.
+Reference: Shirdel et al., 2011
+PubmedID: 21364759.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Saccharomyces cerevisiae, Kaposi sarcoma-associated herpesvirus (HHV8
+), Musca domestica, Oligochaeta (Worm
+).
+URL: http://ophid.utoronto.ca/mirDIP/
+
+Database Name: miRecords
+RNA Type: miRNA
+Overview: miRecords is a database of miRNA and their target genes in animals. The repository is divided in two parts: validated targets and predicted targets. The first one contains information on miRNA experiments, miRNA-target interactions and expression levels. The second part contains target predictions using eleven different computer programs. The website accepts submission of experimentally validated miRNA target data.
+Search Methods:
+	Keyword: search by gene.
+	TAG: search by species, miRNA name, or target gene for both two components.
+Source: Literature and Target Prediction Tools (DIANA-microT, MicroInspector, miRanda, MirTarget2, miTarget, NBmiRTar, PicTar, PITA, RNA22, RNAhybrid and TargetScan/TargertScanS).
+Information Source: Experimental, In silico annotation, Manual curation.
+Information Content: Annotation, Experimental Validate Targets, Interaction, Target gene.
+Reference: Xiao et al., 2009
+PubmedID: 18996891.
+Year: 2009
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Ovis aries (Sheep).
+URL: http://mirecords.biolead.org/
+
+Database Name: miReg
+RNA Type: miRNA
+Overview: miReg is a manually curated database of validated upstream regulators of miRNAs. It also stores information related to these miRNAs: downstream target transcripts, associated biological condition, disease state, and differentially expressed microRNAs.
+Search Methods:
+	Tabular: search by miRNA in miRNA name, upstream regulators (protein/TF), drugs and other regulators, biological process or disease.
+Source: Literature.
+Information Source: Literature, Manual curation.
+Information Content: Annotation, Biological Process, Chemicals, Condition, Disease, Drugs, Gene, Protein, Regulators, Target gene, Transcription Factor.
+Reference: Barh et al, 2010
+PubmedID: 20693604.
+Year: 2010
+Multiple search: No
+Download: Request.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.iioab-mireg.webs.com/
+
+Database Name: miRGator
+RNA Type: miRNA
+Overview: miRGator v2.0 is a database of functional annotation for microRNAs. This database includes miRNA and target gene expression data from different tissues, cell lines, disease and others experimental conditions. It also includes information on predicted target genes.
+Search Methods:
+	Keyword: search by miRNA name, target gene name, gene alias or Entrez Gene ID, tissue, disease, experiments, perturbation.
+	TAG: search by miRNA set analysis (e.g. disease-miRNA), gene set analysis (e.g. anti-coexpressed genes, predicted targets) or miRNA expression profile.
+Source: GEO, ArrayExpress, Hughes lab, Golub lab, miRBase, UCSC Genome Browser, Gene Ontology, KEGG, GenMAPP, BioCarta, Prediction target gene tools (miRanda, PicTar, TargetScanS and miBridge), PhenomiR.
+Information Source: Experimental, In silico annotation.
+Information Content: Binding site, Cell type, Condition, Disease, Expression, Expression, Function, Gene, Gene Ontology, mRNA, Network, Perturbation, Phenotype, Protein, Target gene, Tissue.
+Reference: Cho et al., 2010; Nam et al., 2007
+PubmedID: 17942429, 21062822.
+Year: 2011;2008
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://mirgator.kobic.re.kr/
+
+Database Name: mirGen
+RNA Type: miRNA
+Overview: The microRNA genomic information and regulation database (miRGen - version 2.0) is a database that integrates information from miRNAs, transcription factor binding sites, SNPs and expression profiles for human and mouse genomes. 
+Search Methods:
+	Keyword: search by miRNA name or transcription factor (name or pattern - e.g. TATA).
+Source: Corcoran et al. 2009, Landgrzf et al., 2007, Ozsolak et al., 2008, Marson et al., 2008, miRBase, Transfac/MatchTM tool, mammalian miRNA expression atlas, UCSC Genome Browser, dbSnp database, DIANA-mirPath and microT-ANN.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Annotation, Cluster, Expression, Expression profiles, Localization, Motif, Sequence, Sequence, SNP, Target gene, Tissue, Transcription Factor, Transcription Factor Binding Site.
+Reference: Alexiou et al., 2010; Megraw et al., 2007
+PubmedID: 17108354, 19850714.
+Year: 2010;2007
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://www.microrna.gr/mirgen/
+
+Database Name: miRHrt
+RNA Type: miRNA
+Overview: miRHT is a database of microRNAs participating in the regulation of heart development. It includes information of miRNA target genes and pathways annotation in chicken, mouse and zebrafish.
+Search Methods:
+	Keyword: search by miRNA or gene name.
+	TAG: search by species, target prediction tool.
+Source: Literature, miRBase release 13, Experimental data (Jing lab, unpublished work), Gene Ontology, KEEG release 50.0, MetaCore-GeneGo Pathway Map, MGI, GXD, ZFIN, Tarbase, miRecords, Target Prediction Tools (miRanda, TargetScan, PITA, MirTarget, RNAhybrid and RNA22.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Anatomy Information, Annotation, Cardiovascular system, Expression, Gene, Gene Ontology, Heart development, Localization, Pathway, Sequence, Stage, Target gene.
+Reference: Liu et al, 2010
+PubmedID: 20716610.
+Year: 2010
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken).
+URL: http://sysbio.suda.edu.cn/mirhrt/
+
+Database Name: miRNAMap
+RNA Type: miRNA
+Overview: miRNAMap is a database containing microRNAs, corresponding target genes, genomic maps and expression profiles on normal and tumorous cells (microarray and qPCR). It also stores information related to both experimentally-validated and predicted microRNA target genes.
+Search Methods:
+	Keyword: search by miRNA name or target gene.
+	TAG: search by organism name and constraints of miRNA Target search (e.g. criteria 1 by target sites predicted by at least two tools; or criteria 2 by locates in accessible regions; and criteria 3 in target gene contains multiple target sites).
+	Tabular: search by species (miRNA or target gene).
+Source: miRBase, TarBase, Literature, GEO, Lu et al., 2005, Target Prediction Tools (miRanda, RNAhybrid and TargetScan), Prediction secondary structure (Sfold).
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Expression, Localization, Metazoan genomes, Predicted secondary structure, qPCR data, Sequence, Structure, Target gene, Tissue, Tumor.
+Reference: Hsu et al., 2008; Hsu et al., 2006
+PubmedID: 16381831, 18029362.
+Year: 2008;2006
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Monodelphis domestica, Xenopus tropicalis, Anopheles gambiae.
+URL: http://mirnamap.mbc.nctu.edu.tw/
+
+Database Name: miRNApath
+RNA Type: miRNA
+Overview: miRNApath is a database that associates human, mouse, rat and dog microRNAs with their target genes and metabolic pathways. It integrates data from miRBase, Entrez and KEGG repositories. 
+Search Methods:
+	Keyword: search by gene/miRNA name or pathway; 
+	TAG: search by organism, pathway or symbol (e.g. RefSeq AC, Unigene, GeneID).
+Source: miRBase, miRGen, Entrez, KEGG.
+Information Source: In silico annotation.
+Information Content: Gene, Pathway, Sequence, Target gene.
+Reference: Chiromatzo et al., 2007
+PubmedID: 18058708.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse).
+URL: http://lgmb.fmrp.usp.br/mirnapath/
+
+Database Name: miRNeye
+RNA Type: miRNA
+Overview: miRNeye is a database of miRNA experimental data of the development and adult wild-type mouse eye.
+Search Methods:
+	Keyword: search by miRNA name.
+	TAG: search by miRNA name.
+Source: In-house experiments (Microarray, RNA in situ hybridization), Gene Ontology, KEGG, GO tool analysis (DAVID web-tool), Target Prediction tool (MiRanda, Pictar, TargetScan).
+Information Source: Experimental, In silico annotation.
+Information Content: Adult, Anatomical Structure, Annotation, Embryonic, Expression, Eye, Posnatal, Probe, RNA in situ hybridization, Sequence, Spatiotemporal distribution.
+Reference: Karali et al., 2010
+PubmedID: 21171988.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Mus musculus (House Mouse).
+URL: http://mirneye.tigem.it/
+
+Database Name: miRÃ²
+RNA Type: miRNA
+Overview: The miR-Ontology Database (miRÃ²) is database which contains miRNA-phenotype associations in humans. This database also integrates information about miRNA, ontology, disease, expression profile/tissue and target gene.
+Search Methods:
+	Keyword: search by any terms. The search is restricted by the TAG options selected.
+	TAG: search by category (miRNA, gene, disease, processes, function and tissue) or miRNA/Target pairs.
+Source: Genetic Association Database, Gene Ontology, Mammalian miRNA atlas, miRBase, miRecords, NCBI Gene Database, NCBI Nucleotide Database and Target Prediction Tools (PicTar, TargetScan and miRanda).
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Annotation, Disease, Expression, Function, Gene, Gene Ontology, Processes, Sequence, Structure, Target gene, Tissue.
+Reference: 2011; 2011; 2011; 2010; 2010; 2009; 2009; 2009; 2008; 2008; 2007; 2007; 2006; 2006; 2005; 2003
+PubmedID: 20157481.
+Year: 2009
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://ferrolab.dmi.unict.it/miro/
+
+Database Name: miROrtho
+RNA Type: miRNA
+Overview: miROrtho is a database of predicted miRNA obtained from an in-house pipeline. The pipeline is a mix of SVM-based classifiers and orthology analysis adapted from OrthoDB (Kriventseva et al., 2008).
+Search Methods:
+	Similarity: query your sequence using the BLAST program. It is possible to determine an E-value threshold.
+	Keyword: search by miRNA name (one or more)/families/group id or gene. 
+	Tabular: search by organism.
+	Genomic Location: search by organism and chromosome coordinate.
+Source: Genome Sequence and RNALfold tool.
+Information Source: In silico annotation.
+Information Content: Alignment, Animal, Conservation, Gene, Orthologs, Sequence, Structure.
+Reference: Lagan et al., 2009
+PubmedID: 18927110.
+Year: 2009
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Monodelphis domestica, Pan troglodytes (Chimpanzee), Gasterosteus aculeatus and 31 others.
+URL: http://cegg.unige.ch/mirortho/
+
+Database Name: miRSel
+RNA Type: miRNA
+Overview: miRSel is a compilation of microRNA, gene/protein relations (e.g. physical target, co-expression, repression, induction and cleavage) in human, mouse and rat genomes, based on text mining of published abstracts.
+Search Methods:
+	Keyword: search by miRNA name or gene family (in miRNA search); by database reference name (e.g. LOCUSLINK:3198) or by protein name (in target search); or by PubMed ID or any article terms (e.g. author name); or by gene ontology terms/code. 
+	TAG: search by database dataset (e.g. miRSel, TarBase etc), organism.
+Source: Literature (PubMed), TarBase, miRecords, miR2Disease, Gene Ontology, syngrep tool, databases used in development of dictionary of miRNA/gene/protein synonyms terms (HGNC (HUGO Gene Nomenclature Committee), MGD (Mouse Genome Database), NCBI (Entrez Gene, taxonomy), Swiss-Prot, miRGen, miRBase).
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Gene, Gene Ontology, Protein, Target gene, Text mining.
+Reference: Gerlach et al., 2009
+PubmedID: 18927110.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse).
+URL: http://services.bio.ifi.lmu.de/mirsel/
+
+Database Name: miRTarBase
+RNA Type: miRNA
+Overview: miRTarBase is a database of miRNA-target interactions based on literature surveying. It stores data with experimental support data in 17 species (Human, Mouse, Rat, Chicken, Sheep, Zebrafish, Fruit fly, Silkworm, Nematode, Loblolly pine, Rice, Thale cress, Epstein-Barr virus, HHV-8, HIV-1, Human cytomegalovirus, Vesicular stomatitis virus). 
+Search Methods:
+	Keyword: search by miRNA name, Literature (PMID). 
+	TAG: search by miRNA family, species, gene symbol (in target gene search), validated method (e.g. reporter assay, western blot or microarray experiments etc).
+	Tabular: search by species. 
+Source: Literature, Experimental (e.g. western blot, microarray and pSILAC), Gene Ontology, KEGG, miRanda.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Annotation, Evidence, Gene, Network, Sequence, Structure, Target gene.
+Reference: Naeem et al., 2010
+PubmedID: 21071411.
+Year: 2011
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Ovis aries (Sheep), Oryza sativa (Rice), Bombyx mori, Pinus taeda, Human cytomegalovirus, Kaposi sarcoma-associated herpesvirus (HHV8
+), Epstein-Barr virus and 2 others.
+URL: http://mirtarbase.mbc.nctu.edu.tw/
+
+Database Name: miRvar
+RNA Type: miRNA
+Overview: miRvar is a curated database of genetic variants of miRNA loci in the human genome. The goal of the database is to foster a better understanding of miRNAs and their effect in biological processes to understand the relationship with the genomic variations in these loci.
+Search Methods:
+	Keyword: search by geographic origin and terms by TAG option.
+	TAG: search by miRNA name, chromosome, disease association, location on hairpin.
+Source: dbSNP, Literature, UCSC genome browser, miRBase, HUGO Gene Nomenclature Committee (HGNC), Leiden Open (source) Variation Database (LOVD), HapMap, Prediction Tools (PHDcleav, RISCbinder), and In house analysis. 
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Annotation, Dicer processing site, Disease, Guide strand of miRNA, Sequence, SNP, Variants.
+Reference: Hsu et al., 2010
+PubmedID: 21618345.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://genome.igib.res.in/mirlovd
+
+Database Name: miRWalk
+RNA Type: miRNA
+Overview: miRWalk is a database of human, mouse and rat miRNAs targets. The two modules (predicted and validated targets) have information about pathways, diseases, organs, cell lines, transcription factors and also predicted target gene sites. The validated target module represents includes information from the discontinued Argonaute database (Shahi et al., 2006).
+Search Methods:
+	Keyword: search by Gene Symbol, microRNA name (only for Common Organs and miRNA literature search).
+	TAG: search by Species, Gene regions, Transcript (e.g. longest or all), Prediction Programs (only for Gene Target search), Pathway name (only for Pathway search), disease (only for Disease search), Organ (only for Organ search), Cell Line (only for Cell Line search), OMIM Disorder (only for OMIM Disorder search - Online Mendelian Inheritance in Man).
+	Tabular: search by proteins involved in processing of miRNA.
+Source: miRWalk algorithm result, Target Prediction Tools (e.g. RNA22, miRanda, miRDB, TargetScan, RNAhybrid, PITA, PICTAR and Diana-microT), OMIM, Literature, Argonaute database.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Binding site, Cell line, Disease, Mammalian microRNA, OMIM Disorders target, Organ, Pathway, Processing Proteins, Target gene, Target miRNA.
+Reference: Bhartiya et al., 2011
+PubmedID: 16381827.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse).
+URL: http://www.ma.uni-heidelberg.de/apps/zmf/mirwalk/
+
+Database Name: miSolRNA
+RNA Type: miRNA
+Overview: miSolRNA is a database of tomato miRNAs and target genes. It stores expression profiles obtained by quantitative metabolic loci (QML) and quantitative trait loci (QTLs) approaches.
+Search Methods:
+	Similarity: query your sequence using the BLAST program. 
+	Keyword: search by general terms (e.g. resistance), target name.
+	TAG: search by miRNA name, chromosome fraction, display information (e.g. QTL, alignment etc) or fields search (QTL, metabolites or Hit definition).
+Source: miRBase, Unigene, Augustus and GenomeTheader prediction, Tomato-EXPEN 2000 and 1992 (SOL Genomics Network), Experimental data (Carrari et al., 2006; Schauer et al., 2006; Eshed and Zamir, 1995) and In house pipeline.
+Information Source: Experimental, In silico annotation.
+Information Content: Alignment, Annotation, Expression, Metabolite, QTL, Sequence, Target gene, Tomato.
+Reference: Dweep et al., 2011
+PubmedID: 21059227.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Solanum lycopersicum (Tomato
+).
+URL: http://www.misolrna.org/
+
+Database Name: miTALOS
+RNA Type: miRNA
+Overview: miTALOS is a database of miRNA-target gene regulation in biological pathways. The database also mapped the information between tissue expression profiles and potential miRNA targets in a specific tissue.
+Search Methods:
+	TAG: search by miRNA name, tissue, pathway, Target Prediction tool and organism.
+Source: miRBase, Target Prediction Tools (TargetScanS, RNA22, PicTar, PiTa and TargetSpy), Su et al., 2004 (tissue atlas Ã¢â‚¬â€œ expression profile), NCBI GEO, KEGG, NCI PID (National Cancer Institute Pathway Interaction Database), In-house analysis.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Expression, Expression profiles, Pathway, Sequence, Target gene, Tissue.
+Reference: Bazzini et al., 2010
+PubmedID: 21441347.
+Year: 2011
+Multiple search: Yes
+Download: Request.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://mips.helmholtz-muenchen.de/mitalos/
+
+Database Name: NetAge
+RNA Type: miRNA
+Overview: The NetAge database is a repository of information for biogerontological research, which includes microRNA networks involved in aging, longevity and age-related diseases.
+Search Methods:
+	Keyword: search by any terms based on TAG option.
+	TAG: search by organism, node information (of the network), number of connections and interaction.
+	Tabular: search by organism, analysis (e.g. Common Signature of Longevity and ARDs), gene set/network (e.g. cancer network).
+Source: GenAge Database, Literature (e.g. Budovsky et al, 2007, 2009), CGAP (Cancer Genome Anatomy Project), NCBI OMIM, TSGDB (Tumor Suppressor Gene Database), Cardio (The Cardiovacular Bioinformatics Database), AlzGene database, T2D-Db (Type 2 Diabetes Mellitus Database), BioGRID database, TarBase, InParanoid database, HPRD (Human Protein Reference Database), HUGO Gene Nomenclature, Flybase, WormBase and Saccharomyces Genome Database, Cytoscape, YABNA
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Age, Disease, Interaction, Longevity, Network, Protein.
+Reference: Tacutu et al., 2010
+PubmedID: 20186480.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Saccharomyces cerevisiae.
+URL: http://netage-project.org/
+
+Database Name: Patrocles
+RNA Type: miRNA
+Overview: Patrocles is a database of miRNA-target genes and silencing machinery in seven vertebrates. The database has a tool (Patrocles finder) to determine the DNA sequence polymorphisms (DSP) that influence in miRNA-target gene regulation.
+Search Methods:
+	Keyword: search by octamer motif, target gene id/position (in Polymorphic targets search); or by miRNA id or position (in two search: Polymorphic targets or miRNA); or by miRNA id/position or by gene position (Polymorphic silencing machinery search); or by SNP id (in all three searches: Polymorphic silencing machinery, miRNA and targets).
+	TAG: search by seed type, source (in Polymorphic targets search); or by functional compartment, gene id (in Polymorphic silencing machinery search); or by type of polymorphism (in two searches: Polymorphic silencing machinery and miRNA); or by species, SNP effect/status (in all three searches: Polymorphic silencing machinery, miRNA and targets).
+Source: Ensembl, miRBase, UCSC Genome Database, HapMap, SymAtlas, dbSNP, Stranger et al., 2007, Landgraf et al., 2007, Xie et al., 2005.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Polymorphism, Silencing machinary, SNP, Target gene.
+Reference: Hiard et al., 2009; Georges et al., 2006
+PubmedID: 19906729.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Gallus gallus (Chicken), Bos Taurus (Cattle), Pan troglodytes (Chimpanzee).
+URL: http://www.patrocles.org/
+
+Database Name: PhenomiR 
+RNA Type: miRNA
+Overview: PhenomiR is a manually curated database of microRNAs and their expression profiles in diseases and biological processes, based on gene ontology terms and OMIM classification.
+Search Methods:
+	Keyword: search by miRNA or any keyword (e.g. organism, disease etc).
+	TAG: search by database, disease, miRNA, PubMed, tissue/cell line, bioprocess, study design (e.g. data from cell culture studies and patient studies), sample info, organism, method, evidence and target gene.
+	Tabular: search by miRNA name, disease name/class, tissue/cell line, regulation, PubMedID and study design.
+Source: Literature, miRBase, OMIM Morbid Map, Gene Ontology, Brenda Tissue Ontology 
+Information Source: Experimental, Manual curation.
+Information Content: Annotation, Biological Process, Cell line, Cluster, Disease, Evidence, Expression, Ontology, Sample, Tissue.
+Reference: Ruepp et al., 2010
+PubmedID: 20089154.
+Year: 2010
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://mips.helmholtz-muenchen.de/phenomir/
+
+Database Name: PmiRKB
+RNA Type: miRNA
+Overview: PmiRKB (Plant microRNA Knowledge Base) is a database of Arabidopsis and 21 rice subspecies miRNAs. There are four major modules: (i) SNPs present in pre-miRNAs and mature miRNA in plant; (ii) transcriptional data of pre-miRNAs in a tissue-specific overview based on MPSS data; (iii) miRNA-target cleavage sites provide by parallel analysis for RNA end (PARE) and Target Prediction data; and (iv) miRNA precursor processing information.
+Search Methods:
+	Keyword: search by miRNA name.
+	Tabular: search by species, miRNA name, organism accession number (e.g. AT1G16660.1).
+Source: miRBase release 15, TAIR release 9, Rice Genome Annotation Project (J. Craig Venter Institute/TIGR rice genome release 6.1), Paterson group, OryzaSNP Project), Plant MPSS database, GEO (Gene Expression Omnibus), Literature, miRU predicton tool.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Expression, Paring, Self-regulation, Sequence, SNP, Target gene, Tissue.
+Reference: Meng et al, 2010
+PubmedID: 20719744.
+Year: 2011
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Oryza sativa (Rice).
+URL: http://bis.zju.edu.cn/pmirkb/
+
+Database Name: PMRD
+RNA Type: miRNA
+Overview: Plant microRNA database (PMRD) is a repository of plant microRNAs. The databaseinclude a dataset of miRNAs extracted from literature, promoter regions, expression profiling, mature and precursor microRNA information, secondary structure, target gene and annotation.
+Search Methods:
+	Similarity: search sequences using BLAS program, or search precursor sequences of miRNA by predicting through the prediction tool available on the database.
+	Keyword: search by miRNA name, target gene.
+	TAG: search by organism or mature/stem-loop miRNA type.
+	Tabular: search by organism or expression (e.g. probe name).
+	Genomic Location: by organism and chromosome coordinate.
+Source: miRBase, Rfam, GEO, psRNATarget server, Prediction secondary structure (RNAfold), Literature.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Annotation, Crops, Experimental Evidence, Expression, Models plants, Predicted secondary structure, Sequence, Structure, Target gene.
+Reference: Zhang et al., 2009
+PubmedID: 19808935.
+Year: 2010
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Brassica rapa, Dictyostelium discoideum, Glycine Max (Soybean), Medicago truncatula (Barrel Medic), Oryza sativa (Rice), Populus tremula, Vitis vinifera, Chlamydomonas reinhardtii (Green Alga), Picea abies, Pinus taeda, Physcomitrella patens, Selaginella moellendorffii, Arabidopsis lyrata, Brassica napus and 112 others.
+URL: http://bioinformatics.cau.edu.cn/PMRD/
+
+Database Name: PolymiRTS
+RNA Type: miRNA
+Overview: Polymorphisms in microRNA Target Sites Database (PolymiRTS) is a repository of the characterization of polymorphisms in microRNA target sites. It includes information related to SNPs, phenotypes and expression data (microarray/quantitative trait locus). Version 2.0 include new features: (i) diseases and traits in GWAS, (ii) supported by experimental methods and (iii) polymorphisms in miRNA seed regions.
+Search Methods:
+	Keyword: search by SNP ID, miRNA name, gene name/ID/description, phenotype, Trait OR GO (Accession or Name).
+	TAG: search by species, function class, experimental support, conservation level or browse data by: gene with SNP in miRNA target site, SNP in miRNA seeds, human disease and traits or experimentally supported targets.
+	Genomic Location: by organism, mouse strains and chromosome coordinate.
+Source: UCSC, miRBase, dbSNP, dbGAP, NHGRI, GWAS, CLIP-Seq, GeneNetwork, GTEx, dbSNP, Galaxy, TargetScan, Multiz, miRecords, TarBase, miRTarBase, Ensembl and in-house method for identification of PolymiRTS.
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Expression, Gene, Phenotype, Polymorphism, QTL, Quantitative trait locus, Silencing process, SNP, Structure, Target gene.
+Reference: Bao et al., 2007; Ziebarth et al., 2012
+PubmedID: 17099235, 22080514.
+Year: 2007; 2012
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://compbio.uthsc.edu/miRSNP/
+
+Database Name: PuTmiR
+RNA Type: miRNA
+Overview: The Putative Transcription factor for microRNA Regulation Database (PuTmiR) is a repository of transcription factors (TFs) of human miRNAs. This information is based on computational analysis of putative TFs binding sites located up to 10 kilobases upstream or downstrem of miRNAs. It is also possible to identify TFs located in a user-specified distance from the miRNA.
+Search Methods:
+	Keyword: search by miRNA name.
+	Genomic Location: search TFs for a specific miRNA by specifying the length of the searched region (default is 10,000 bp). 
+Source: miRBase, UCSC Genome Browser, TRANSFAC (matrix).
+Information Source: In silico annotation.
+Information Content: Downstream region, Localization, RefSeq, Regulatory network, Transcription Factor, Upstream region.
+Reference: Bandyopadhyay and Bhattacharyya, 2010
+PubmedID: 20398296.
+Year: 2010
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.isical.ac.in/~bioinfo_miu/TF-miRNA.php 
+
+Database Name: RepTar
+RNA Type: miRNA
+Overview: RepTar is a database of microRNA target predictions in human, mouse and viral genomes. The database contains a set of conventional and non-conventional miRNA-binding sites generated by an in-house program.
+Search Methods:
+	Keyword: search by miRNA name, gene name. Some binding sites related threshold related are available (e.g. minimal free energy, site conservation etc). 
+	TAG: search by species, miRNA source (e.g. human, mouse or viral dataset), binding site, known/unknown repeat elements, keyword search category (e.g. gene, miRNA name, seed type).
+	Tabular: search by organism and by miRNA name/sequence.
+Source: miRBase, RepTar algorithm program (in-house tool), UCSC Genome Browser (hg18 and mm9 databases Ã¢â‚¬â€œ 3Ã¢â‚¬â„¢UTR data).
+Information Source: In silico annotation.
+Information Content: Binding site, Computational, Conservation, Free energy, Gene, Motif, Nonconventional binding sites, Pattern, Repeat, Sequence, Target, Viral.
+Reference: Naama et al., 2011
+PubmedID: 21149264.
+Year: 2011
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Human EBV virus, Human HCMV virus, Human KSHV virus, Mouse MCMV virus, Mouse MGHV virus.
+URL: http://bioinformatics.ekmd.huji.ac.il/reptar/ 
+
+Database Name: S-MED
+RNA Type: miRNA
+Overview: The Sarcoma microRNA Expression Database (S-MED) is a repository of miRNA expression profiles of tumor tissue samples, representing 22 different human sarcoma types.
+Search Methods:
+	TAG: search by miRNA or disease name, tissue group or RNA in differentially expressed data.
+Source: In-house experiments.
+Information Source: Experimental, In silico annotation.
+Information Content: Binding site, Computational, Conservation, Expression, Free energy, Gene, Motif, Nonconventional binding sites, Pattern, Repeat, Sequence, Target, Viral.
+Reference: Sarver et al., 2010;
+PubmedID: 20212452.
+Year: 2010
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.oncomir.umn.edu/SMED/
+
+Database Name: starBase
+RNA Type: miRNA
+Overview: starBase (small RNA target base) is a database of Argonaute interaction sites and miRNA cleavages sites, based on new high-throughput methods (public CLIP-Seq and Degradome data) and target prediction tools. It also integrates thousand of binding sites of other RNA-binding proteins.
+Search Methods:
+	Similarity: search sequences using the authors program (ClipSearch or DegradomeSearch). Both tools help identify small RNAs in CLIP-Seq and Degradome-Seq data.
+	Keyword: search by gene symbol and RefSeq Accession. 
+	TAG: search by organism, clade, gene symbol, miRNA name, target prediction tool, CLIP-Seq number of reads or site type (e.g. 8mer).
+	Genomic Location: search by chromosome location, database (e.g. hg19) and organism.
+	Density of ncRNAs: search by clade, genome and database.
+Source: Literature and NCBI GEO database, Target Prediction Tools (TargetScan, PicTar, miRanda, PITA, RNA22, RNA22, miRanda and CleaveLand), miRBase, UCSC, GO ontology, KEEG pathways, BioCarta, Ensembl, TIGR, MSU Rice Genome Annotation Website and Grapevine genome sequences (Genoscope website).
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Argonaute sites, Cleavage sites, CLIP-Seq, Cluster, Degradome-Seq, Expression, Gene, High-throughput sequencing, Next-generation data, Reads, RefSeq, Sequence, Target site.
+Reference: Yang et al, 2010
+PubmedID: 21037263.
+Year: 2011
+Multiple search: Yes
+Download: BED.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Oryza sativa (Rice), Vitis vinifera.
+URL: http://starbase.sysu.edu.cn/ 
+
+Database Name: TarBase
+RNA Type: miRNA
+Overview: TarBase is a manually curated database of experimentally supported microRNA targets from several organisms (Caenorhabditis elegans, Danio rerio, Droshopila, Homo sapiens, Mus musculus, plants, Rattus norvegicus and unspecified viruses. It also stores data of regulatory interaction between miRNAs and target 3'-UTRs.
+Search Methods:
+	TAG: search by organism, miRNA, gene or restriction query option (e.g. miRNA-Target interaction, biological function, validation method or literature/source).
+Source: Literature.
+Information Source: Experimental.
+Information Content: Annotation, Experimental Condition, Gene, Regulatory information, Sequence, Target gene.
+Reference: Papadopoulos et al., 2009; Sethupathyet al., 2006
+PubmedID: 16373484, 18957447.
+Year: 2009;2006
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans.
+URL: http://diana.cslab.ece.ntua.gr/tarbase/ 
+
+Database Name: TransmiR
+RNA Type: miRNA
+Overview: TransmiR is a database of transcription factors (TFs) that regulate microRNAs and their associated diseases, based on a manual literature survey. The user can also submit novel entries to the website.
+Search Methods:
+	Keyword: search by TF or miRNA name, PubMedID, species or any other database term search.
+	TAG: search by regulation type (e.g. activate or repress), transcription factor name or by miRNA name.
+Source: Literature, HMDD, UCbase.
+Information Source: Literature, Manual curation.
+Information Content: Annotation, Disease, Regulation Type, Transcription Factor, Tumor.
+Reference: Wang et al., 2010
+PubmedID: 19786497.
+Year: 2010
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Oryza sativa (Rice).
+URL: http://202.38.126.151/hmdd/mirna/tf/ 
+
+Database Name: UCbase & miRfunc
+RNA Type: miRNA
+Overview: UCbase is a database of ultraconserved elements (UC) and microRNAs. It integrates ultraconserved regions and miRNAs with different human disorders.
+Search Methods:
+	Similarity: search sequences using the BLAST program.
+	Keyword: search by the ultraconserved element number or miRNA name (e.g. uc.1A or has-mir-222) with one or multiple names and by gene name.
+	TAG: search by band, human Mendelian inheritance disorders related to that band.
+Source: PubMed, miRBase, UCSC Genome Browser.
+Information Source: In silico annotation.
+Information Content: Annotation, Disease, Expression, Ideogram, Ultraconserved elements.
+Reference: Taccioli et al., 2008
+PubmedID: 18945703.
+Year: 2009
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse).
+URL: http://microrna.osu.edu/.UCbase4/ 
+
+Database Name: ZooMir
+RNA Type: miRNA
+Overview: ZooMir is a database of homologous microRNA identified in animal genomes. A miRNA discovery pipeline was used to identify candidates for evolutionary-conserved miRNAs between 86 species. The predicted results on human, medaka and rat were experimentally validated using on deep-sequencing data.
+Search Methods:
+	Tabular: search by species, class of miRNA (with miRNA and homologous data) or by evolutionary pattern information (e.g. table with the comparison between miRNAs).
+Source: miRBase, UCSC Genome Bioinformatics web site, RefSeq, In house pipeline (BLAST, Srnaloop, LIBSVM for SVM classification).
+Information Source: Experimental, In silico annotation.
+Information Content: Animal, Class, Evolution, Homology, Orthologs, Paralogs, Pattern, Pipeline, SVM Classification.
+Reference: Li et al., 2010
+PubmedID: 20347954.
+Year: 2010
+Multiple search: No
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar), Monodelphis domestica and 71 others.
+URL: http://insr.ibms.sinica.edu.tw/ZooMir/ 
+
+Database Name: antiCODE
+RNA Type: NAT
+Overview: antiCODE is a database of non-redundant natural sense-antisense transcript pairs from twelve eukaryotic model organisms (human, mouse, rat, frog, fruit fly, nematode, sea squirt, chicken, zebrafish, cow, rice and thale cress). 
+Search Methods:
+	Tabular: search by sense/antisense, coding/noncoding, cis/trans and organism.
+	Similarity: search sequences using the BLAST program.
+	Keyword: search by accession number, UniGene or RefSeq name and species name.
+	TAG: search by gene or organism.
+Source: Literature, NCBI and RIKEN/FANTOM Project.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Annotation, Cis/Trans, Condition, Model organisms, Natural Antisense transcript, Sense/Antisense, Sequence, Transcripts.
+Reference: Yin et al., 2007
+PubmedID: 17760969.
+Year: 2007
+Multiple search: Yes
+Download: FASTA.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Bos Taurus (Cattle), Oryza sativa (Rice), Xenopus tropicalis, Didemnum vexillum.
+URL: http://bioinfo.ibp.ac.cn/ANTICODE 
+
+Database Name: NATsDB
+RNA Type: NAT
+Overview: The Natural Antisense Transcripts Database (NATsDB) is a repository of natural antisense transcripts (NATs) in eleven species (human, mouse, rat, fly, sea squirt, cow, frog, chicken, zebrafish, worm and dog). NATsDB also includes information of NATs overlapping and non-overlapping with exonic regions (in some cases in bidirectional genes), poly(A) signals and tails, PhastCons conservation, conserved homologues in other species, repeat elements, EST expression profiles and OMIM disease association.
+Search Methods:
+	Similarity: query your sequence using the BLAST program.
+	Keyword: search by type of NAT, mRNA/EST accession number, gene or OMIM name.
+	TAG: search by species and coding potential.
+	Genomic Location: search by organism and chromosome coordinate.
+Source: In house pipeline based on UniGene, FANTOM3, GoldenPath/PhastCons score and chromosome mapping of mRNA/EST.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Antisense transcript, Biological signal, Condition, Disease, EST, Expression, Localization, mRNA, Organ, Repeat, Sense/Antisense, Tissue, Transcripts, Tumor.
+Reference: Zhang et al., 2007
+PubmedID: 17082204.
+Year: 2007
+Multiple search: Yes
+Download: Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Bos Taurus (Cattle), Xenopus tropicalis, Didemnum vexillum.
+URL: http://natsdb.cbi.pku.edu.cn/ 
+
+Database Name: Trans-SAMap
+RNA Type: NAT
+Overview: The Trans-natural Sense-Antisense transcripts Map (Trans-SAMap) database is a repository specific to trans-sense/antisense (SA) pairs. The authors used an in-house pipeline to identify several trans-SA transcripts in ten organisms (human, mouse, rat, cattle, dog, chicken, zebrafish, fly, sea squirt and worm), based on transcriptional units available in NATsDB database
+Search Methods:
+	Similarity: query your sequence using the BLAST program.
+	Keyword: search by gene name, Trans-SA in Gene/Transcripts or mRNA/EST accession number.
+	TAG: search by species.
+	Tabular: search by species.
+	Genomic Location: search by Trans-SA member by chromosome location.
+Source: NATsDB (mRNA/EST), H-invDB, UCSC Genome Browser (Repeats), NCBI (Entrez gene, GEO, HomoloGene, SAGEMap), GO and KEGG.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, EST, Evidence, Gene, mRNA, Other variant, Pattern, Sense/Antisense, Sequence, Transcripts.
+Reference: Li et al., 2008
+PubmedID: 18653530.
+Year: 2011; 2011; 2011; 2010; 2010; 2009; 2009; 2009; 2008; 2008; 2007; 2007; 2006; 2006; 2005; 2003
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Bos Taurus (Cattle), Didemnum vexillum.
+URL: http://trans.cbi.pku.edu.cn/ 
+
+Database Name: NPInter
+RNA Type: Multiple classes
+Overview: The ncRNA-Protein Interaction Database (NPInter) is a repository of experimentally verified functional interactions between ncRNAs (excluding tRNAs and rRNAs) and protein related biomacromolecules (proteins, mRNAs or genomic DNAs). The authors use a classification system of ncRNA functional interactions, which are divided into eight different interaction processes: i) ncRNA binds to protein, ii) ncRNA regulates the mRNA, iii) ncRNA indirectly regulates a gene (DNA), iv) ncRNA is regulated by the protein, v) ncRNA as a factor affects the protein's function, vi) The protein as a factor affects the ncRNA's function, vii) genetic interaction between the ncRNA gene and the protein gene, viii) special linkages between the ncRNA and the protein.
+Search Methods:
+	Keyword: search by any keyword based on content of the TAG options.
+	TAG: search by ncRNA, Protein, NONCODE ID, Entrez Gene ID, Swiss-Prot ID, PubMed ID, EcoCyc, SGD, FlyBase, WormBase, MGI and OMIM.
+Source: Literature, NONCODE, FlyBase, PubMed, Entrez, SGD, EcoCyc, Swiss-Prot, WormBase, MGI, OMIM.
+Information Source: Experimental.
+Information Content: Annotation, Classification, Interaction, Protein, Sequence.
+Reference: Wu et al., 2006
+PubmedID: 16381834.
+Year: 2006
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Saccharomyces cerevisiae, Escherichia coli.
+URL: http://www.bioinfo.org.cn/NPInter/ 
+
+Database Name: piRNABank
+RNA Type: piRNA
+Overview: piRNABank is a database of sequences and annotation information of Piwi-interacting RNAs (piRNAs), obtained from biological databases and literature.
+Search Methods:
+	Similarity: query your sequence using the BLAST program.
+	Keyword: search by piRNABank ID or NCBI Accession number, gene name/symbol.
+	TAG: search by organism.
+	Genomic Location: search by chromosome location.
+	Density of ncRNAs: search by chromosome, coordinate position and by a range of piRNA densites in a cluster.
+Source: NCBI, RNAdb, UCSC Genome Browser.
+Information Source: In silico annotation, Literature.
+Information Content: Cluster, Homology, Repeat, Sequence, Transposable Elements.
+Reference: Lakshmi & Agrawal, 2008
+PubmedID: 17881367.
+Year: 2008
+Multiple search: No
+Download: Request.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Drosophila melanogaster (Common Fruit Fly), Ornithorhynchus anatinus (Platypus).
+URL: http://pirnabank.ibab.ac.in/ 
+
+Database Name: The ribonuclease P database
+RNA Type: Ribozyme
+Overview: The ribonuclease P database is a repository that stores sequences, alignments, secondary structures, three-dimensional models and phylogenetic datasets of RNase P from various organisms covering different kingdoms (Bacteria, Archea and Eukarya). 
+Search Methods:
+	Tabular: search by organism, alignments or 3D-Structures/models.
+Source: "The Book P" (informal publication) and GenBank.
+Information Source: In silico annotation, Literature.
+Information Content: Alignment, Model, Sequence, Structure.
+Reference: Brown, 1999
+PubmedID: 7524025, 8594588, 9016549, 9399871, 9847214.
+Year: 1999;1998;1997;1996;1994
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Macaca mulatta (Rhesus Monkey), Pan troglodytes (Chimpanzee), Gorilla gorilla (Gorilla), Pongo pygmaeus (Orangutan
+), Saccharomyces cerevisiae, Schizosaccharomyces pombe, Xenopus laevis, Escherichia coli, Bacillus subtilis, Prochlorococcus marinus, Pseudomonas aeruginosa and 243 others.
+URL: http://www.mbio.ncsu.edu/rnasep/ 
+
+Database Name: HuSiDa
+RNA Type: siRNA
+Overview: Human siRNA Database (HuSiDa) is a repository of experimentally validated human siRNAs. It stores information related to sequences, target human genes, references and technical details of gene silencing experiments (e.g. recipient cell lines, transfection reagents and procedures).
+Search Methods:
+	Keyword: search by UniGene identifier, RefSeq accession number, gene name, cell line, transfection method, siRNA source or sequence.
+Source: Literature.
+Information Source: Experimental.
+Information Content: Cell line, Design tool, Gene, Target.
+Reference: Truss et al., 2005
+PubmedID: 15608157.
+Year: 2005
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://itb.biologie.hu-berlin.de/~nebulus/sirna/ 
+
+Database Name: siRecords
+RNA Type: siRNA
+Overview: siRecords is a database of mammalian experimentally validated siRNAs, their targetgenes and details of previous RNAi experiments (e.g. effectiveness rating of an RNAi experiment). There is an option to design siRNAs using only GenBank accession or GI number for the gene or using the nucleotide sequence.
+Search Methods:
+	Keyword: search by GenBank accession/GI number, host species, cell and tissue, method of Making/Delivering siRNA, sequence, efficacy classification, PubMed ID, authors or article.
+Source: PubMed (experiments), bl2seq (aligned siRNA sequence against mRNA based on article information).
+Information Source: Experimental.
+Information Content: Annotation, Cell type, Design tool, Efficacy, Gene, Mammalian, qPCR, Tissue.
+Reference: Ren et al., 2009; Ren et al., 2006
+PubmedID: 16443930, 18996894.
+Year: 2009;2006
+Multiple search: Yes
+Download: Request.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Gallus gallus (Chicken), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Sus scrofa (Wild Boar), Aotus trivirgatus, Cavia porcellus (Guinea Pig), Cercopithecus aethiops (Grivet), Cricetulus griseus (Chinese Hamster), Felis catus (Cat), Oryctolagus cuniculus (Rabbit
+) and 2 others.
+URL: http://sirecords.biolead.org/ 
+
+Database Name: siRNAdb
+RNA Type: siRNA
+Overview: The short interfering RNA database (siRNAdb) is a repository of siRNAs obtained from literature. There are also resource pages for articles and for the reagents necessary for siRNA application. The user can submit siRNA sequences or publications, which are stored in the database after manual curation.
+Search Methods:
+	Tabular: search by siRNA ID, target sequence, geneID, gene accession number, and target position (start and end).
+Source: Literature, RefSeq.
+Information Source: In silico annotation, Manual curation.
+Information Content: Gene, Sequence, Target gene.
+Reference: Chalk et al., 2005
+PubmedID: 15608162.
+Year: 2005
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://sirna.sbc.su.se/ 
+
+Database Name: The MIT/ICBP siRNA Database
+RNA Type: siRNA
+Overview: The MIT/ICBP siRNA Database is a repository of validated siRNAs and their target genes, with an emphasis on genes potentially involved in cancer. By the website, it is possible to submit siRNA sequences. 
+Search Methods:
+	Keyword: search by gene name.
+	Tabular: search by target gene, NCBI Probe, miRNA knockdown and protein knockdown (in human/mouse reactive options).
+Source: Sequences designed by MIT researchers (Qiagen, Greg Hannon and Steve Elledge) and tested (by Natasha Caplen's group and the ICBP/CGAP programs, both from NCI).
+Information Source: Experimental.
+Information Content: Annotation, Cancer, Cell line, Cell type, Gene, mRNA knockdown, Probe, Protein knockdown, Sequence, Target gene.
+Reference: Unpublished
+PubmedID: Not Found
+Year: 2007
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://web.mit.edu/sirna/
+
+Database Name: ASRP
+RNA Type: small RNA
+Overview: The Arabidopsis thaliana Small RNA Project (ASRP) is a database of small RNAs (e.g. siRNAs, tasiRNA, miRNAs, and their targets) identified from different Arabidopsis genotypes and tissues.
+Search Methods:
+	Similarity: query your small sequence against the entire population of small RNA data. 
+	Keyword: search by miRNA name, small RNA sequence, locus identifier.
+	TAG: search by data from experiments (e.g. Illumina or 454 sequencers).
+	Genomic Location: search by chromosome location (e.g. 1:24416..36433).
+Source: In-house experiments and miRBase.
+Information Source: Experimental.
+Information Content: Annotation, Families data, Next-generation data, Reads, Sequence, small RNA Library, Structure, Target.
+Reference: Backman et al., 2008; Gustafson et. al, 2005
+PubmedID: 15608278, 17999994.
+Year: 2008;2005
+Multiple search: Yes
+Download: GFF, FASTA, Other.
+Genomic overview: Yes
+Organism: Arabidopsis Thaliana (Thale Cress).
+URL: http://asrp.cgrb.oregonstate.edu/ 
+
+Database Name: Autism Genetic Database
+RNA Type: small RNA
+Overview: Autism Genetic Database (AGD) is a repository of autism information. It integrates data of gene copy number variations, noncoding RNA genes (small RNAs) and fragile sites related with autism.
+Search Methods:
+	TAG: search by choosing one chromosome (in an ideogram image), gene, CNV, ncRNA, piRNA, fragile sites or all these option.
+Source: GenBank, miRBase, SnoRNA-LBME-db, piRNABank, MIT/ICBP.
+Information Source: Literature, Manual curation.
+Information Content: Annotation, Autism, Copy Number Variation, Fragile site, Gene, Ideogram.
+Reference: Matuszek and Talebizadeh, 2009
+PubmedID: 19778453.
+Year: 2009
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://wren.bcf.ku.edu/ 
+
+Database Name: cre-siRNA
+RNA Type: small RNA
+Overview: The Chlamydomonas reinhardtii silencing RNA database (cre-siRNA) is a repository of short RNAs characterized in single-cell green algae. This database contains small RNA based on experiments with 454 high-throughput sequencing (including siRNA and miRNA), and their predicted target mRNAs. 
+Search Methods:
+	Similarity: search sequences using the BLAST program.
+	Keyword: search by small RNA loci or individual sRNA, sRNA targets (sequence or EST accession) or locus ID.
+	TAG: search by filter criteria (e.g. overlap CDS/Transposable element, is a phased/miRNA candidate, sequence length, matches).
+Source: Experimental.
+Information Source: Experimental.
+Information Content: High-throughput sequencing, Locus, Next-generation data, Sequence, Targets.
+Reference: Molnar et al., 2007
+PubmedID: 17538623.
+Year: 2007
+Multiple search: Yes
+Download: FASTA.
+Genomic overview: Yes
+Organism: Chlamydomonas reinhardtii (Green Alga).
+URL: http://cresirna.cmp.uea.ac.uk/ 
+
+Database Name: CSRDB
+RNA Type: small RNA
+Overview: The Cereal small RNAs database (CSRDB) is a repository of maize and rice miRNAs and siRNAs obtained by 454 high-throughput sequencing and corresponding predicted mRNA targets generated by in silico analysis.
+Search Methods:
+	Similarity: search sequences using the BLAST program. There is a tool to search for conserved target sites and transcripts.
+	Keyword: search by transcript/small RNA ID or small RNA sequence.
+Source: In house experiments, miRBase, Rfam and Prediction tools (FASTH program, alignment tools Ã¢â‚¬â€œ T-COFFEE.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Cereal, High-throughput sequencing, Next-generation data, Prediction tools, Sequence, Target site.
+Reference: Johnson et al., 2006
+PubmedID: 17169981.
+Year: 2006
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: Yes
+Organism: Zea mays, Ozyra sativa.
+URL: http://sundarlab.ucdavis.edu/smrnas/ 
+
+Database Name: SiLoDb
+RNA Type: small RNA
+Overview: siRNA Locus Database (SiLoDb) is a repository of small RNAs in plants (Medicago truncatula, Arabidopsis thaliana, Chlamydomonas reinhardtii, Oryza sativa and Solanum lycopersicum).It provides a detailed annotation for these RNAs, regarding their loci, size, class and strand-oriented distribution.
+Search Methods:
+	Keyword: search by sequence, minimum and maximum number of full length perfect matches to the genome; or by unique matches, strand bias, percentage mers (e.g. 20-21 - in SRNA loci search).
+	TAG: search by length, output (in sRNA sequence search); or by features (e.g. mature miRNA ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ in SRNA loci search).
+	Tabular: search by sample accession id.
+	Genomic Location: search by chromosome location.
+Source: GEO, miRBase, Medicago Sequencing Project, TAIR, JGI, MSU website (Rice Genome Annotation Project), SOL genomics network.
+Information Source: Experimental.
+Information Content: Comparative analysis, Expression, Loci, Sample, Sequence, Size classes, Strand bias.
+Reference: Unpublished
+PubmedID: 17169981.
+Year: Unpublish
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Arabidopsis Thaliana (Thale Cress), Medicago truncatula (Barrel Medic), Solanum lycopersicum (Tomato
+), Ozyra sativa, Chamydomonas reinhardtii.
+URL: http://silodb.cmp.uea.ac.uk/ 
+
+Database Name: smiRNAdb
+RNA Type: miRNA
+Overview: smiRNAdb is a database of miRNAs obtained by sequencing of in-house small RNA libraries from different tissues and cell types. smiRNAdb was integrate to to the MirZ web server.
+Search Methods:
+	Similarity: query your sequence using the WU-BLAST program. The search can be restricted by organism and by p-value threshold.
+	TAG: search by species and tissue/samples type (in miRNA sample, clustering or visual miRNA expression profiles searches); or by miRNA options (e.g. miRNA name - in search of visual miRNA expression profiles search).
+Source: Tuschl Lab.
+Information Source: Experimental.
+Information Content: Cell type, Cluster, Expression, Model organisms, Sample, Sequence, Tissue, Tissue.
+Reference: Landgraf et al., 2007
+PubmedID: 17604727.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans.
+URL: http://www.mirz.unibas.ch/cloningprofiles/ 
+
+Database Name: sRNAmap
+RNA Type: small RNA
+Overview: The small noncoding RNA map (sRNAmap) is a database of small RNAs, their transcriptional regulators and target genes in microbial genomes. There is also information related to secondary structures, expression profiles and transcriptional start sites of these ncRNAs.
+Search Methods:
+	Similarity: query your sequence using the BLAST program.
+	Keyword: search by any keyword. Searches are restricted by the TAG options.
+	TAG: search by species, sRNA type (e.g. regulators, targets, all), data from (database, computational, literature).
+	Tabular: search by literatures records of sRNA gene, computational sRNA, expression profile 
+Source: EcoCyc, RegulonDB, ASAP, NONCODE, NPInter, GEO, UCSC Archeal Genome Browser, Literature.
+Information Source: In silico annotation, Literature.
+Information Content: Expression, Microbial genomes, Network, Sequence, Structure, Target gene, Transcription Start Site, Transcriptional Regulators.
+Reference: Huang et al., 2009
+PubmedID: 19015153.
+Year: 2009
+Multiple search: Yes
+Download: FASTA.
+Genomic overview: Yes
+Organism: Escherichia coli, Pectobacterium atrosepticum, Photorhabdus luminescens, Salmonella species, Serratia species, Shigella species, Yersinia species.
+URL: http://srnamap.mbc.nctu.edu.tw/ 
+
+Database Name: sRNATarBase
+RNA Type: small RNA
+Overview: sRNATarBase is a database of small regulatory RNA targets in bacterial genomes, obtained by collecting experimental data from literature. There are also two tools: one for the analysis of sRNA-mRNA target interaction in closely related bacterial genomes; and one for sRNA target prediction (sRNATarget - Cao et al, 2009).
+Search Methods:
+	Similarity: search sequences using the BLAST program. BLAST is also used in conjunction with the tools forPhylogenetic Analysis and Target Prediction.
+	Keyword: search by sRNATarBase ID (e.g. SRNAT00001).
+	TAG: search by organism, sRNA or Target name, NCBI Code, Target type, regulation, direct or indirect support, PMID.
+Source: PubMed and Prediction secondary structure (RNAfold and VARNA).
+Information Source: Experimental, Literature, Manual curation.
+Information Content: Bacterial, Evidence, Gene, Interaction, mRNA, Phylogeny, Predicted secondary structure, Protein, Regulation, Sequence.
+Reference: Cao et al, 2010
+PubmedID: 20843985.
+Year: 2010
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Escherichia coli, Azobacter vinelandii, Bacillus subtilis, Listeria monocytogenes, Neisseria meningitides, Prochlorococcus marinus, Pseudomonas aeruginosa, Pseudomonas fluorescens, Pseudomonas fluorescens SBW25, Pseudomonas fluorescens strain CHA0, Salmonella enterica subsp. enterica serovar Typhi str. CT18, Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, Staphylococcus aureus subsp. aureus str. NW2, Staphylococcus aureus subsp. aureus str. NEWMAN, Vibrio cholera.
+URL: http://ccb.bmi.ac.cn/srnatarbase/ 
+
+Database Name: The Tomato small RNA Database
+RNA Type: small RNA
+Overview: The Tomato small RNA database is a repository small RNAs obtained from published experimental data and from in-house bioinformatics analysis. It stores information related to expression profiling, mapping of sRNAs and target gene. A target prediction tool is available on the website.
+Search Methods:
+	Keyword: search by small RNA ID (e.g. S0000001), by sequence, by miRNA ID, miRNA name or by gene name.
+	TAG: search by highly abundant sRNAs.
+Source: Published Experimental data (Pilcher et al., 2007; Itaya et al., 2008; Moxon et al., 2008), Dr. Blake Meyer's small RNA Labs data (site at University of Delaware); miRBase, In- house pipeline (RNAfold, mirCheck and based on Jones-Rhoades and Bartel parameters/matrix targets gene), SGN unigenes (SOL Genomics Network), ITAG predicted cDNAS (International Tomato Annotation Group).
+Information Source: Experimental, In silico annotation.
+Information Content: Alignment, Annotation, Folding Energy, Sequence, Structure, Target, Tissue.
+Reference: Fei et al., 2010
+PubmedID: 20965973.
+Year: 2011
+Multiple search: Yes
+Download: FASTA.
+Genomic overview: Yes
+Organism: Solanum lycopersicum (Tomato
+), Solanum pennellii, Solanum lycopersicum x S. pennellii.
+URL: http://ted.bti.cornell.edu/ 
+
+Database Name: Sno/scaRNAbase
+RNA Type: snoRNA
+Overview: Small nucleolar RNA and small cajal body-specific RNA database (Sno/scaRNAbase) is a curated repository for small nucleolar RNAs and small cajal body-specific RNAs from 85 organisms. It contains data retrieved from literature manuscripts and from GenBank annotation.
+Search Methods:
+	Similarity: query your sequence using the BLAST programs.
+	Keyword: search by snoRNA/scaRNA names. 
+	TAG: search by snoRNA/scaRNA groups, and by organism.
+	Tabular: search by organism, group of snoRNA/scaRNA (e.g. box C/D), reference (e.g. author, PubMed ref, volume, page etc), GenBank accession number, length.
+Source: Literature, GenBank.
+Information Source: In silico annotation, Manual curation.
+Information Content: Annotation, Sequence, Structure.
+Reference: Xie et al., 2006
+PubmedID: 17099227.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Bos Taurus (Cattle), Dictyostelium discoideum, Drosophila virilis, Chlamydomonas reinhardtii (Green Alga), Beta vulgaris, Ceratodon purpureus, Citrus unshiu, Chelydra serpentina, Candida albicans, Cryptosporidium parvum and 14 others.
+URL: http://gene.fudan.sh.cn/snoRNAbase.nsf 
+
+Database Name: snoRNA-LBME-db
+RNA Type: snoRNA
+Overview: snoRNA-LBME-db or snoRNABase is a database of human snoRNAs and scaRNAs, including their predicted target genes and the potential base-pairing interactions within this target. There is also secondary structure information of snoRNA, telomerase RNA and basic information on the relationship between snoRNAs, host genes, and genomic imprinting.
+Search Methods:
+	Similarity: search your sequence using the BLAST program.
+	Keyword: search by name from literature, the RNA symbol and snoRNA type, length, GenBank accession number and target RNA.
+	Tabular: search by C/D or H/ACA box snoRNAs, scaRNAs, sno/scaRNA position, Human-yeast snoRNA correspondence and alignments.
+Source: Literature, GenBank, UCSC Genome Browser, miRBase, Rfam, GeneLinx, GeneCards, OMIM.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Alignment, Annotation, Gene, Sequence, Target.
+Reference: Lestrade et al., 2006
+PubmedID: 16381836.
+Year: 2006
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://www-snorna.biotoul.fr/ 
+
+Database Name: Methylation Guide snoRNA
+RNA Type: snoRNA
+Overview: Methylation Guide snoRNA is a database for snoRNA annotation in Saccharomyces cerevisiae, Arabidopsis thaliana and some Archeal genomes of the Euryarchaeotes and Crenarchaeotes groups. It also provides an tool for searching genomic sequences for 2'-O-ribose methylation guide in snoRNA genes prediction.
+Search Methods:
+	Tabular: search by alignments, sRNA annotation/mapping/modification site or genomic locus. 
+Source: methylation guide snoRNA database, ABRC Stock Center.
+Information Source: In silico annotation.
+Information Content: Alignment, Annotation, Genome locus, Sequence, Target.
+Reference: Unpublished
+PubmedID: Not Found
+Year: Unpublish
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Saccharomyces cerevisiae, Sulfolobus solfataricus, Sulfolobus acidocaldarius, Aeropurum pernix, Methanococcus jannaschii, Archaeglobus fulgidus, Pyrococcus horikoshii, Pyrococcus furiosus, Pyrococcus abyssi.
+URL: http://lowelab.ucsc.edu/snoRNAdb/ 
+
+Database Name: Plant snoRNA database
+RNA Type: snoRNA
+Overview: Plant snoRNA database is a repository of experimentally verified and curated small nucleolar RNAs from Arabidopsis thaliana and similar sequences in 17 additional plant species identified by sequence comparisons with Arabidopsis.
+Search Methods:
+	TAG: search by organism, snoRNA name or ID (e.g. SnoRNA10), sequence (just to get it).
+	Tabular: search by sRNA genes alignments in plant species or rRNA modification sites.
+Source: Literature, sequence comparisons between A. thaliana and other 17 genomes.
+Information Source: In silico annotation, Literature.
+Information Content: Alignment, Annotation, Conservation sites, Modification sites, Sequence.
+Reference: Brown et al., 2003
+PubmedID: 12520043.
+Year: 2003
+Multiple search: No
+Download: FASTA.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Glycine Max (Soybean), Lycopersicon esculentum, Medicago truncatula (Barrel Medic), Chlamydomonas reinhardtii (Green Alga), Pinus taeda, Physcomitrella patens, Hordeum vulgare, Sorghum bicolor (Sorghum), Triticum aestivum (Bread wheat), Zea mays, Beta vulgaris, Ceratodon purpureus, Citrus unshiu, Lycopersicon hirsutum and 3 others.
+URL: http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/home
+
+Database Name: snoRNP database
+RNA Type: snoRNA
+Overview: The snoRNA database is a repository of snoRNA and snoRNA-associated proteins (snoRNP proteins) in organisms from different kingdoms.
+Search Methods:
+	Keyword: search by any term. Searched are restricted by the TAG option.
+	TAG: search by genus, class or accession.
+Source: NCBI database.
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Class, Family, Genus, Protein, Sequence.
+Reference: Ellis et al., 2010
+PubmedID: 20197376.
+Year: 2010
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://www.evolveathome.com/snoRNA/snoRNA.php 
+
+Database Name: U12DB
+RNA Type: snoRNA
+Overview: The U12 Intron Database (U12DB) is a repository of orthologous U12-type spliceosomal introns of 20 genomes. These introns were mapped via spliced alignment of completely sequenced eukaryotic genomes and associated orthologous introns identified.
+Search Methods:
+	Keyword: search by any term. Searched are restricted by the TAG options.
+	TAG: search by introns, intron clusters, gene Id, Ensembl gene Id, gene name and gene description. It can also be filtered by conserved, absent, alternatively-spliced, type switch and subtype switch introns.
+Source: UCSC Genome Browser, FlyBase, Ensembl, Inparanoid and Exonerate program.
+Information Source: In silico annotation, Manual curation.
+Information Content: Acceptor/Donor site, Annotation, Gene, Sequence, Transcripts, U12-type intron.
+Reference: Alioto, 2007
+PubmedID: 17082203.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Monodelphis domestica, Pan troglodytes (Chimpanzee) and 5 others.
+URL: http://genome.imim.es/datasets/u12/
+
+Database Name: Yeast snoRNA database
+RNA Type: snoRNA
+Overview: The Yeast snoRNA is a database of Saccharomyces cerevisiae H/ACA and C/D box snoRNAs. This repository presents a bioinformatics package for searching rRNA nucleotide modifications in the ribosome, especially those created by small nucleolar RNA protein complexes (snoRNPs).
+Search Methods:
+	Keyword: search by any general term.
+	Tabular: search by snoRNA or type (e.g. C/D box), target (sequence), modification sites.
+Source: S. cerevisiae Genome Database, Comparative RNA Web Site, European ribosomal RNA database, PDB, LBME, GenBank, Mfold and JMol program.
+Information Source: In silico annotation.
+Information Content: Annotation, Conservation, Interaction, Modification sites, Processes, Sequence, Structure, Target RNA.
+Reference: Piekna-Przybylska et al., 2007
+PubmedID: 17283215.
+Year: 2007
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Saccharomyces cerevisiae.
+URL: http://people.biochem.umass.edu/fournierlab/snornadb/ 
+
+Database Name: SRPDB
+RNA Type: SRP RNA
+Overview: The Signal Recognition Particle Database (SRPDB) is a repository of SRP RNAs and of protein components in several organisms from different kingdoms. It also stores information related to alignment, annotation and phylogeny.
+Search Methods:
+	Tabular: search by species, group, subgroup or accession (ordered phylogenetically or alphabetically.
+Source: Literature, In-house tool (SRP-Scan), Other Tools (BLAST, RNABOB, INFERNAL, PATSCAN and MFOLD), NCBI Taxonomy, GenBank and EMBL.
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Alignment, All kingdom, Motif, Phylogeny, Protein, Sequence, Structure.
+Reference: Andersen et al., 2006
+PubmedID: 7524020, 7687350, 9399828, 9847170, 10592215, 11125080, 12520023, 16381838, 2147483647.
+Year: 2006;2003;2001;2000;1999;1998;1997;1996;1994;1993
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Sus scrofa (Wild Boar), Monodelphis domestica, Pan troglodytes (Chimpanzee), Dictyostelium discoideum and 530 others.
+URL: http://rnp.uthscsa.edu/rnp/SRPDB/SRPDB.html
+
+Database Name: BPS
+RNA Type: Structure
+Overview: Base Pair Structure (BPS) is a database of RNA base-pair spatial arrangements. Structures were obtained from the Nucleic Acid Database, and from base-pairs characterized using the tool 3DNA.
+Search Methods:
+	Keyword: search by NDB or PDB ID.
+	TAG: search by structure class.
+	Tabular: search by base pair or saenger's pattern (e.g. Watson-crick base pairs, hydrogen bond etc).
+Source: PDB, NDB, 3DNA.
+Information Source: Experimental.
+Information Content: Base pair, Class, Interaction, Isosteres, Orientation, Pattern, Structure.
+Reference: Xin and Olson, 2008
+PubmedID: 18845572.
+Year: 2009
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://bps.rutgers.edu/
+
+Database Name: BRAliBase
+RNA Type: Structure
+Overview: BRAliBase is a repository of RNA secondary structure predictions and alignment algorithms. It can be used for structure prediction, sequence alignment, similairty search, phylogenetic modelling and ncRNA gene-finding.
+Search Methods:
+	Tabular: search by RNA dataset type (secondary structure, alignments, sequence etc).
+Source: NMR or crystallography, Rfam sequences.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Algorithm, Alignment, Benchmark, Folding, Homology, Phylogeny, Similarity, Structure.
+Reference: Gardner et al., 2005; Gardner and Giegerich, 2004
+PubmedID: 15458580, 15860779.
+Year: 2005;2004
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Saccharomyces cerevisiae, Escherichia coli.
+URL: http://projects.binf.ku.dk/pgardner/bralibase/
+
+Database Name: CRW
+RNA Type: Structure
+Overview: The Comparative RNA Web database (CRW) is a repository of comparative analysis of ribosomal, transfer and the catalytic intron group I and II RNAs. It stores sequence and structure information for a large number of organisms from different kingdoms.
+Search Methods:
+	Keyword: search by organism, phylogeny, common name, sequence length, intron position.
+	TAG: search by dataset (e.g. 16S rRNA), sequence length, Exon, ORF, secondary structures, group class (in general access to metadata); or by organism, phylogenetic, classification, (in Secondary Structure Diagram Retrieval); or RNA class or cell location (in both).
+	Tabular: search by RNA structure models, base pair, single bases, nucleotide frequency/modifications, RNA conservation diagrams, introns, RNA sequence/structure by organism, motifs, RNA folding, phylogenetic analysis (for rRNA), lateral gene transfer (for Group I intron).
+Source: Literature (also Crystal dataset), GenBank, Alignments.
+Information Source: Experimental, In silico annotation, Literature, Manual curation.
+Information Content: Alignment, Base pair, Crystal data, Diagram, Evolution, Folding, Models, Modifications, Phylogeny, Sequence, Structure.
+Reference: Cannone et al., 2002
+PubmedID: 11869452.
+Year: 2002
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Arabidopsis Thaliana (Thale Cress), Dictyostelium discoideum, Glycine Max (Soybean), Neurospora crassa, Oryza sativa (Rice), Saccharomyces cerevisiae, Schizosaccharomyces pombe, Felis catus (Cat), Chlamydomonas reinhardtii (Green Alga), Picea abies, Gossypium hirsutum, Malus domestica, Hordeum vulgare and 1794 others.
+URL: http://www.rna.ccbb.utexas.edu/
+
+Database Name: MeRNA
+RNA Type: Structure
+Overview: The Metal in RNA (MeRNA) is a database of metal-ion binding sites in known RNA tertiary structures. There is also information related to classification RNA motif structure, function, interaction and their relationships.
+Search Methods:
+	Keyword: search by PDB id, NDB id, metal ion,resolution, R value, free R-value, type of binding, distance to any RNA ligand, author name (in the primary, additional references or both), distance in Armstrong from metal ion to RNA or metal ion to water.
+	TAG: search by experimental method, binding motif, authors of literature references. 
+	Tabular: search by PDB information in Metal ion list.
+Source: Literature, PDB and NDB.
+Information Source: Experimental, Literature.
+Information Content: Annotation, Binding site, Chain, Ligand, Metal ion, Structure.
+Reference: Stefan et al., 2006
+PubmedID: 16381830.
+Year: 2006
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://merna.lbl.gov/
+
+Database Name: NCIR
+RNA Type: Structure
+Overview: The database of Non-Canonical Interactions in known RNA structures (NCIR) is a repository of the structures of RNAs in which a particular rare base pair has been found. The data include non-canonical interactions observed in published crystal and NMR structures of tRNAs, group I introns, ribozymes, RNA aptamers and synthetic oligonucleotides.
+Search Methods:
+	Keyword: search by general terms, authors or journal. Searches are restricted by the TAG options.
+	TAG: search by structure, chemical shift, puckers info, glycosidic conf, melting point, extra information or free energy.
+	Tabular: search by base pair type, author's name or structure.
+Source: Literature.
+Information Source: Literature.
+Information Content: Annotation, Base pair, Base Quadruples, Base Triples, Free energy, Interaction, Non-Canonical base pair, Structural Elements, Structure.
+Reference: Nagaswamy et al., 2002
+PubmedID: 11752347.
+Year: 2002
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://prion.bchs.uh.edu/bp_type/
+
+Database Name: NNDB
+RNA Type: Structure
+Overview: The Nearest Neighbor Database (NNDB) is a repository of nearest neighbor parameters for RNA folding rules assembled in 1999 (Mathews et al., 1999) and 2004 (Mathews et al., 2004). These parameters are used in several secondary structure prediction tools (e.g. Mfold, RNAfold).
+Search Methods:
+	Tabular: search by type of structure (e.g. G-U pair, bulge loops etc) and folding energy information.
+Source: Mathews et al., 2004; Mathews et al., 1999.
+Information Source: Experimental, Literature.
+Information Content: Annotation, Folding, Folding Parameters, Free energy, Interaction, Structural Elements, Structure.
+Reference: Turner and Mathews, 2010
+PubmedID: 19880381.
+Year: 2010
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://rna.urmc.rochester.edu/NNDB/
+
+Database Name: PseudoBase
+RNA Type: Structure
+Overview: PseudoBase is a database specific of RNA pseudoknot structures. It includes information of sequence/structure, class (RNA type), organism and pseudoknot component structures. In case, PseudoBase++ is the extension of PseudoBase database. The main updates in PseudoBase++ include a quick and advanced search, mapping existing sequences to GenBank, visualization with PseudoViewer, classification of pseudoknots per type and the option to submit new pseudoknots.
+Search Methods:
+	Keyword: search by sequence, PKB number, organism name, comment, submitted by, reference, RNA type and structure features (e.g. pseudoknot, loop length), author or journal.
+Source: Crystallography, NMR, mutational experiments and sequence comparisons.
+Information Source: Experimental, In silico annotation.
+Information Content: Crystallography, Mutation, Pseudoknot, Sequence, Structure.
+Reference: Taufer et al., 2009; Batenburg et al., 2001; Batenburg et al., 2000
+PubmedID: 10592225, 11125088, 18988624.
+Year: 2009;2001;2000
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Bos Taurus (Cattle), Saccharomyces cerevisiae, Bombyx mori, Escherichia coli, Bacillus subtilis, AKV murine leukemia virus, alfalfa mosaic virus, andean potato latent virus, B. subtilis, baboon endogenous virus, bacteriophage Q-beta, bacteriophage T4, bamboo mosaic virus and 112 others.
+URL: http://pseudobaseplusplus.utep.edu/
+
+Database Name: RNA FRABASE
+RNA Type: Structure
+Overview: The RNA FRABASE is a database of RNA three-dimensional fragments and the corresponding complexes of structures.
+Search Methods:
+	Keyword: search by sequence and/or structure.
+	TAG: search by basic structural elements (residues, base pairs, multiplet, dinucleotide steps, stems and loops) where there are some parameters as: experimental method, structure element length (e.g. loop or stem length), residues, base pair classification (Westhof's or Saenger's notation) etc.
+	Tabular: search by secondary structure.
+Source: PDB, NDB
+Information Source: Experimental, In silico annotation.
+Information Content: Base pair, Class, Crystallography, Fragments of structure, Models, Residue, Resolution, Sequence, Structural Elements, Structure.
+Reference: Popenda et al., 2008
+PubmedID: 17921499, 20459631.
+Year: 2010;2008
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://rnafrabase.ibch.poznan.pl/
+
+Database Name: RNA STRAND
+RNA Type: Structure
+Overview: The RNA Secondary Structure and Statistical Analysis Database (RNA STRAND) is a database of known secondary structures of several RNA types (e.g. group I intron, RNase P, ribozymes, SRP).
+Search Methods:
+	Similarity: search by conserved sequence pattern (e.g. AMGHGNUC*ACGNA).
+	Keyword: search by organism, source ID, sequence or abstract shapes.
+	TAG: search by RNA type, source, length, validation (NMR or X-Ray), number of molecules in the complex, fragment, duplicate, abstract shapes level or not to include non-redundant sequence.
+	Tabular: search by RNA STRAND ID, Molecule name, RNA Type, Organism, Source, Source ID, Length.
+Source: Rfam, RCSB/PDB/NDB, CRW, tmRNA, Sprinzl tRNA Database, RNase P Database, SRP Database, Nucleic Acid Database, RNAView software.
+Information Source: Experimental, In silico annotation, Manual curation.
+Information Content: Annotation, Correlation, Cumulative distribution , Domain, Histograms, Motif, Source, Structural Elements, Structure.
+Reference: Andronescu et al., 2008
+PubmedID: 18700982.
+Year: 2008
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Canis familiaris (Dog), Mus musculus (House Mouse), Bos Taurus (Cattle), Oryza sativa (Rice), Saccharomyces cerevisiae, Xenopus laevis, Human immunodeficiency virus 1 (HIV
+), Escherichia coli, Bacillus subtilis, Sulfolobus solfataricus, Sulfolobus acidocaldarius, Methanococcus jannaschii, Pyrococcus horikoshii, Pyrococcus furiosus and 39 others.
+URL: http://www.rnasoft.ca/strand/
+
+Database Name: RNAJunction
+RNA Type: Structure
+Overview: RNAJunction is a database of structure and sequence information for RNA junction elements (e.g. multiloop and kissing structures). The JunctionScanner software is used for detecting, extracting and analyzing RNA junctions, kissing loops, internal loops and bulges from PDB coordinate files. 
+Search Methods:
+	Keyword: search by Structure (Entry ID, NC-IUBMB class, angle range), sequence id or source (PDB ID, author and publication).
+	TAG: search by structure type (e.g. kissing loop, bulge/internal loop etc) or experimental method.
+	Tabular: search by structure type (e.g. kissing loop, bulge/internal loop etc).
+Source: PDB, SCOR and MMDB.
+Information Source: Experimental, In silico annotation.
+Information Content: Angle, Classification, Sequence, Structural Elements, Structure.
+Reference: Bindewald et al., 2008
+PubmedID: 17947325.
+Year: 2008
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Unspecified.
+URL: http://rnajunction.abcc.ncifcrf.gov/
+
+Database Name: SCOR
+RNA Type: Structure
+Overview: Structural Classification Of RNA (SCOR) is a database of RNA structures (three-dimensional motifs, function and tertiary interactions). Classification and description for each class of RNA structure is provided to help to create a common glossary (including structural and functional classification). The database includes several types of RNAs such as transfer, ribosomal, ribozymes, small nuclear RNAs, SRP and viral packaging RNA.
+Search Methods:
+	Similarity: search by a sequence pattern (e.g. GNRA, GACG or GCAA)
+	Keyword: search by PDB/NDB ID, Residue or any other terms (e.g. tetraloop).
+	Tabular: search by PDB/NDB list, structural classification (e.g. hairpin loop), functional classification (e.g. molecular, motif), tertiary interaction.
+Source: PDB and NDB.
+Information Source: Experimental.
+Information Content: Class, Classification, Interaction, Models, Molecular Function, Motif, Structural Elements, Structure.
+Reference: Klosterman et al., 2002, 2004
+PubmedID: 14681389.
+Year: 2004;2002
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://scor.berkeley.edu/
+
+Database Name: Telomerase Database
+RNA Type: TERC
+Overview: Telomerase Database is a repository of telomerase data, including the protein and RNA components. The database stores RNA structures and alignments between different telomerase components (i.e. TR, TERT, Nop10, and others). The user can browse between the sequences, alignments, structures and diseases related to these molecules.
+Search Methods:
+	Tabular: search by species, telomerase RNA/Protein (sequence, alignments, phylogenetic trees, secondary structure, disease and mutation).
+Source: PDB, Literature, GenBank.
+Information Source: Experimental, In silico annotation, Literature.
+Information Content: Alignment, Components, Disease, Motif, Mutation, Phylogeny, Protein, Reverse transcriptase, Sequence, Structure, TERT.
+Reference: Podlevsky et al., 2007
+PubmedID: 18073191.
+Year: 2007
+Multiple search: No
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Sus scrofa (Wild Boar), Monodelphis domestica and 243 others.
+URL: http://telomerase.asu.edu/
+
+Database Name: The UCSC Genome Browser database
+RNA Type: Multiple classes
+Overview: The University of California Santa Cruz Genome Browser (UCSC Genome Browser) is a database concentrated mainly on genomics and annotation information. Even being a general scope resource, it contains much data specific for non-coding RNA. UCSC contains a system to retrieve various types of information (dataset) on non-coding RNA (e.g. experimental, prediction) for several organisms. The community can download de information in several fromats. Also, fRNAdb 3.0 database has a UCSC browser (mirror) with a larger number of tracks and richer features of ncRNA. The ncRNA dataset is also available for non-Eukaryote genomes in the UCSC Microbial Genome Browser.
+Search Methods:
+	Similarity: search sequences against genomes by using BLAT program.
+	Keyword: search by gene name/symbol, forward/reverse primer.
+	TAG: search by clade, genome, assembly, group, track, table.
+	Genomic Location: choosing for a clade, genome, assembly and chromosome location or gene name.
+Source: NCBI (e.g. genomes assemblies, GenBank, RefSeq, MGC, dbSNP), Ensembl, UniProt, Vega, miRBase, snoRNA-LBME-DB, GO, OMIM, DECIPHER, Catalog of Published Genome-Wide Association Studies, DARNED, Tools (e.g. BLAT, Fgenesh++, Genscan, Augustus, Evofold, RNAz), Consortium/Project dataset (e.g. ENCODE, CCDS, HapMap, HGDP, 1000 Genomes Project), Expression data (e.g. GNF Atlas, Affymetrix Transcriptome Project).
+Information Source: Experimental, In silico annotation.
+Information Content: Alignment, Annotation, Expression, Gene, Gene Ontology, Localization, mRNA, Orthologs, Polymorphism, Protein, Repeat, Sequence, SNP.
+Reference: Karolchik et al, 2011; Dreszer et al., 2011; Chan et al., 2011; Fujita et al., 2010; Sanborn et al., 2010; Rhead et al., 2009; Karolchik et al., 2009; Mangan et al., 2009; Kuhn et al., 2008; Zweig et al., 2008; Karolchik et al., 2007; Karolchik et al., 2007; Kuhn et al., 2006; Hinrichs et al., 2006; Hsu et al., 2005; Karolchik et al., 2003
+PubmedID: 12519945, 15608236, 16381938, 17142222, 18086701, 18428780, 18514479, 18996895, 19816931, 19906737, 19957273, 20959295, 21059681, 21975940, 22080555, 22086951.
+Year: 2011; 2011; 2011; 2010; 2010; 2009; 2009; 2009; 2008; 2008; 2007; 2007; 2006; 2006; 2005; 2003
+Multiple search: Yes
+Download: BED, GTF, FASTA, Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Ovis aries (Sheep), Pan troglodytes (Chimpanzee), Cavia porcellus (Guinea Pig), Equus caballus (Horse), Galago moholi (Mohol Bushbaby), Gorilla gorilla (Gorilla), Hylobates lar (Lar gibbon), Papio hamadryas (Baboon
+), Pongo pygmaeus (Orangutan
+) and 31 others.
+URL: http://genome.ucsc.edu/
+
+Database Name: miRNA Body Map
+RNA Type: miRNA
+Overview: miRNA Body Map is a repository of RT-qPCR expression data and functional annotation of microRNAs in normal and diseased tissues from human, mouse and rat genomes. It includes pathway data, primary sequence and GO term annotation. 
+Search Methods:
+	Keyword: search by microRNA name and any additional free terms related to that miRNA.
+	TAG: search by choose different diseases datasets.
+Source: Literature, miRBase, TargetScan, miRDB, MicroCosm, DIANA, TarBase, Gene Ontology, KEGG, PITA catalog, RNA22, miRecords
+Information Source: Experimental, In silico annotation, In silico annotation, Literature.
+Information Content: Annotation, Disease, Expression, Function, Literature, Tissue.
+Reference: Mestdagh et al., 2011
+PubmedID: 21835775.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse).
+URL: http://www.mirnabodymap.org
+
+Database Name: IGDB.NSCLC
+RNA Type: miRNA
+Overview: IGDB.NSCLC is a database of lung cancers expressed protein-coding genes and microRNAs based on different microarrays approaches. It includes lung cancer genes with somatic mutations, genomic alterations with copy number alterations (CNAs) detected by high density SNP arrays, gain or loss regions detected by arrayed comparative genome hybridization (aCGH), loss of heterozygosity data (LOH) detected by microsatellite markers, and aberrant expression of genes and miRNA detected by microarray experiments.
+Search Methods:
+	Keyword: search by gene name, acession number, Entrez or NCBI gene ID, markers or others free terms.
+	TAG: search by different lung cancer subtypes and chromosome coordinates position or cytoband.
+Source: Literature, In-house experiments, Ensembl, UCSC, HapMap, COSMIC, NCBI, HGNC, miRBase, HLungDB, National Cancer Institute, NIH Senior Health, Centers for Disease Control and Prevention, Wikipedia, National Lung Partnership, American Cancer Society (NSCLC)
+Information Source: Experimental, In silico annotation, In silico annotation, Literature.
+Information Content: Adenocarcinoma, Cancer, Clinical studies, Copy Number Alteration, Gene, Lung, Mutation, Patient, SNP, Squamous cell carcinoma.
+Reference: Kao et al., 2012
+PubmedID: 22139933.
+Year: 2012
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://igdb.nsclc.ibms.sinica.edu.tw
+
+Database Name: miRNA SNiPer
+RNA Type: miRNA
+Overview: A repository of genetic variations in microRNAs of different vertebrates.It stores information related to SNPs located in seed regions of miRNAs based on the integration of three diferent databases. 
+Search Methods:
+	Keyword: search by microRNA names.
+	TAG: serach by species.
+Source: miRBase, TargetScan, Ensembl
+Information Source: In silico annotation, In silico annotation.
+Information Content: Gene, Genetic variation, Polymorphism, SNP, Target, Vertebrates.
+Reference: Zorc et al., 2012
+PubmedID: 22303335.
+Year: 2012
+Multiple search: No
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Drosophila melanogaster (Common Fruit Fly), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Sus scrofa (Wild Boar), Monodelphis domestica, Pan troglodytes (Chimpanzee), Equus caballus (Horse), Pongo abelii, Ornithorhynchus anatinus (Platypus) and 2 others.
+URL: http://www.integratomics-time.com/miRNA-SNiPer
+
+Database Name: microRNAviewer
+RNA Type: miRNA
+Overview: microRNAviewer is a database of homologous microRNAs in different species.
+Search Methods:
+	Tabular: user can browse a table with a list of different microRNAs and their conservation in several different species.
+Source: miRBase, miRNAminer
+Information Source: In silico annotation, In silico annotation.
+Information Content: Conservation, Homology.
+Reference: Kiezun et al., 2012
+PubmedID: 22330228.
+Year: 2012
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Takifugu rubripes (Fugu), Gallus gallus (Chicken), Ciona intestinalis, Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans, Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Sus scrofa (Wild Boar), Monodelphis domestica, Pan troglodytes (Chimpanzee) and 34 others.
+URL: http://people.csail.mit.edu/akiezun/microRNAviewer
+
+Database Name: miREnvironment
+RNA Type: miRNA
+Overview: miREnvironment is a database linking miRNAs, experimental factors and phenotypes based on literature. Human, mouse and rat represent 98% of the entries in the database. It also has a tool to predict associations between environmental factors (drugs) and human diseases, as well as cancer and miRNA signatures.
+Search Methods:
+	Keyword: search by miRNA name, environmental factor, phenotype and/or species.
+Source: Literature (Pubmed)
+Information Source: Literature, Manual curation.
+Information Content: Annotation, Condition, Drugs, Environmental factors, Function, Phenotype, Sample.
+Reference: Yang et al., 2011 
+PubmedID: 21984757.
+Year: 2011
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Canis familiaris (Dog), Mus musculus (House Mouse), Danio rerio (Zebrafish), Gallus gallus (Chicken), Caenorhabditis elegans, Arabidopsis Thaliana (Thale Cress), Bos Taurus (Cattle), Sus scrofa (Wild Boar), Pan troglodytes (Chimpanzee), Oryza sativa (Rice), Xenopus tropicalis, Chlamydomonas reinhardtii (Green Alga), Solanum lycopersicum (Tomato
+) and 4 others.
+URL: http://cmbi.bjmu.edu.cn/miren
+
+Database Name: NAPP
+RNA Type: Multiple classes
+Overview: Nucleic acid phylogenetic profiling (NAPP) is a database of classified coding and non-coding sequences based on genomic conservation. It was built based on a clustering method that efficiently identifies noncoding RNA (ncRNA) elements, particular small RNAs and cis regulatory RNAs in bacterial and archeal genomes.
+Search Methods:
+	Keyword: search by genome name or name part (e.g. bacillus).
+	TAG: search by species name.
+Source: GenBank, NAPP Pipeline, NCBI BLAST, Rfam 10.0, Gene Ontology
+Information Source: In silico annotation, In silico annotation.
+Information Content: Conservation, Gene Ontology, Ontology, Phylogeny, Pipeline.
+Reference: Ott et al., 2011 
+PubmedID: 21984475.
+Year: 2011
+Multiple search: Yes
+Download: GFF, Other.
+Genomic overview: No
+Organism: Drosophila melanogaster (Common Fruit Fly), Culex quinquefasciatus, Brugia malayi, Escherichia coli, Photorhabdus luminescens, Bacillus subtilis, Listeria monocytogenes, Prochlorococcus marinus, Pseudomonas aeruginosa, Pseudomonas fluorescens, Vibrio harveyi, Sulfolobus solfataricus, Sulfolobus acidocaldarius, Methanococcus jannaschii, Pyrococcus horikoshii and 700 others.
+URL: http://napp.u-psud.fr/
+
+Database Name: PlantNATsDB
+RNA Type: NAT
+Overview: PlantNATsDB is database of natural antisense transcripts (NAT) with information related to both cis-NAT and trans-NAT classes from 69 plant species. This database integrates a pipeline for NAT prediction and classification, small RNAs high-throughput sequencing data, expression, interaction network visualization, gene information and GO annotation.
+Search Methods:
+	Similarity: search sequences using the BLAST program with the option to change some parameters.
+	Keyword: search by Locus ID, Gene Locus Name, Gene Alias, transcript name or any keyword term.
+	TAG: search by organism, type of NAT (cis, trans or both)
+Source: Specific genome-sequencing projects, The Gene Index Project, Gene Expression
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Annotation, Expression, Gene Ontology, Natural Antisense transcript, Plant.
+Reference: Chen et al., 2011 
+PubmedID: 22058132.
+Year: 2011
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: Yes
+Organism: Arabidopsis Thaliana (Thale Cress), Glycine Max (Soybean), Medicago truncatula (Barrel Medic), Vitis vinifera, Ectocarpus siliculosus, Chlamydomonas reinhardtii (Green Alga), Picea abies, Pinus taeda, Physcomitrella patens, Selaginella moellendorffii, Arabidopsis lyrata, Brassica napus, Carica papaya (Papaya), Ricinus communis (Castor bean), Lotus japonicus and 54 others.
+URL: http://bis.zju.edu.cn/pnatdb/
+
+Database Name: doRiNA
+RNA Type: miRNA
+Overview: doRiNA is a database focused in post-transcriptional regulation which integrates information related to biding site data between RNA biding proteins (RBPs) and microRNAs.
+Search Methods:
+	Similarity: search sequences using the BLAT program.
+	Keyword: search by Gene Symbol, NCBI RefSeq.
+	TAG: search by clade, genome, assembly, Gene Symbol, NCBI RefSeq or regulators (RBPs and/or miRNAs)
+Source: In-house experiments (e.g. PAR-CLIP) and literature experiments (e.g. HITS-CLIP, Hafner et al. 2010 - Reference 11), Tools (e.g. PicTar), UCSC Genome Browser, miRBase v16
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Annotation, Binding site, Prediction tools, RNA binding proteins, Target gene.
+Reference: Anders et al., 2011 
+PubmedID: 22086949.
+Year: 2011
+Multiple search: Yes
+Download: Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Mus musculus (House Mouse), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans.
+URL: http://dorina.mdc-berlin.de
+
+Database Name: Antagomirbase
+RNA Type: miRNA
+Overview: Antagomirbase is a database specific for antagomirs, a novel class of chemically engineered oligonucleotides for miRNAs silencing. 
+Search Methods:
+	Tabular: a list table of target information, putative antagomirs, biding energy and GC content.
+Source: Mfold, Sfold, 23 miRNA from H. sapiens.
+Information Source: In silico annotation.
+Information Content: Antagomir, Predicted secondary structure, Prediction tools, Silencing process, Target.
+Reference: Ganguli et al., 2011 
+PubmedID: 21904438.
+Year: 2011
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://bioinfopresidencycollegekolkata.edu.in/antagomirs.html
+
+Database Name: Pharmaco-miR
+RNA Type: miRNA
+Overview: A major discovery is the ability of miRNAs to determine the efficacy of drugs, which has given rise to the field of â€˜miRNA pharmacogenomicsâ€™ through â€˜Pharmaco-miRsâ€™. miRNAs play a significant role in pharmacogenomics by down-regulating genes that are important for drug function. These interactions can be described as triplet sets consisting of a miRNA, a target gene and a drug associated with the gene. We have developed a web server which links miRNA expression and drug function by combining data on miRNA targeting and protein^ drug interactions. miRNA targeting information derive from both experimental data and computational predictions, and protein^ drug interactions are annotated by the Pharmacogenomics Knowledge base (PharmGKB). Pharmaco-miRâ€™s input consists of miRNAs, genes and/or drug names and the output consists of miRNA pharmacogenomic sets or a list of unique associated miRNAs, genes and drugs.We have furthermore built a database, named Pharmaco-miR Verified Sets (VerSe), which contains miRNA pharmacogenomic data manually
+curated from the literature, can be searched and downloaded via Pharmaco-miR and informs on trends and generalities
+published in the field. Overall, we present examples of how Pharmaco-miR provides possible explanations for previously published observations, including how the cisplatin and 5-fluorouracil resistance induced by miR-148a may be caused by miR-148a targeting of the gene KIT
+Search Methods:
+
+
+Warning:  Invalid argument supplied for foreach() in D:\Xampp\htdocs\nrdr2\ajax\retorna_todos_databases.php on line 36
+
+Source: 
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Database, microRNAs, miRNA pharmacogenomics set, Pharmaco-miR, pharmacogenomics, Web server.
+Reference: Rukov et al., 2013
+PubmedID: 23376192.
+Year: 2013
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://www.pharmaco-mir.org/
+
+Database Name: Plncdb
+RNA Type: Long RNA
+Overview: PLncDB provides a comprehensive genomic view of Arabidopsis lncRNAs for the plant research community. It contains comprehensive information related to lncRNAs, such as genomic information, expression profiles, siRNA information and associated epigenetic markers
+
+Search Methods:
+	Genomic Location: search by chromosome coordinate
+Source: In house pipeline based on literature, data from the research group and chromosome mapping of mRNA/EST based on TAIR
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Arabidopsis, Experimental Evidence, Expression, Intergenic region, Long RNA, Sequence, Stress.
+Reference: 
+PubmedID: 23476021.
+Year: 2013
+Multiple search: No
+Download: GFF.
+Genomic overview: Yes
+Organism: Arabidopsis Thaliana (Thale Cress).
+URL: http://chualab.rockefeller.edu/gbrowse2/homepage.html 
+
+Database Name: LNCipedia
+RNA Type: Long RNA
+Overview: Lncipedia.org is a integrated database of 32,183 human annotated lncRNA transcripts obtained from different sources. In addition to basic transcript information and structure, several statistics are calculated for each entry in the database, such as secondary structure information, protein coding potential and microRNA binding sites
+Search Methods:
+	Keyword: search by Name/ID or by sequences using partial sequences
+	TAG: search by chromosomal location and database source
+Source: LncRNAdb, Broad Institute, Ensembl, Gencode 
+Information Source: Experimental, In silico annotation, In silico annotation, Literature.
+Information Content: chromosomal location, Gene ID, Locus conservation, miRNA targets, Protein coding potential, related literature, Secondary Structure, transcript ID, transcript size.
+Reference: Volders et al., 2013
+PubmedID: 23042674.
+Year: 2013
+Multiple search: Yes
+Download: BED, GFF, GTF, FASTA, Request.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://www.lncipedia.org
+
+Database Name: lncRNAdisease
+RNA Type: Long RNA
+Overview: lncRNAdisease is a database for the association of long noncoding RNAs and diseases. It integrate tools for predicting novel lncRNA-disease associatons and stores information related to curated lncRNA interactions in various levels, including protein, RNA, miRNA, and DNA
+Search Methods:
+	Genomic Location: search by lncRNA-disease associations in a particular genomic region
+	Keyword: search by lncRNA or disease name
+Source: lncRNAdb, NRED, NONCODE, HMDD, OMIM, GAD
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Annotation, Interaction, lncRNA targets, related disease.
+Reference: Chen G et al.,2013
+PubmedID: 23175614.
+Year: 2013
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://202.38.126.151/hmdd/html/tools/lncrnadisease.html
+
+Database Name: miRandola
+RNA Type: miRNA
+Overview: miRandola is the first database that provides a comprehensive manually curated classification of extracellular circulating miRNAs and information about all kind of extracellular miRNAs. miRandola is connected to  miRÃ², the miRNA knowledge base, allowing users to infer the potential biological functions of circulating miRNAs and their connections with phenotypes. The miRandola database contains 2132 entries, with 581 unique mature miRNAs and 21 types of samples. miRNAs are classified into four categories, based on their extracellular form: miRNA-Ago2 (173 entries), miRNA-exosome (856 entries), miRNA-HDL (20 entries) and miRNA-circulating (1083 entries). The database provides users with a variety of information including the associated diseases, the samples, the methods used to isolate the miRNAs and the description of the experiment.
+Search Methods:
+	Keyword: miRNA, miRNA family, miRNA type, sample, diseases and malignant cell lines and potential biomarkers
+Source: miRBase, miRÃ², ExoCarta, PubMed
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Biomarkers, Cancer, Disease, Extracellular Circulating MicroRNAs.
+Reference: Russo F, Di Bella S, Nigita G, Macca V, Lagana` A, et al. 2012
+PubmedID: 23094086.
+Year: 2012
+Multiple search: No
+Download: Other, Request.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://atlas.dmi.unict.it/mirandola/index.html
+
+Database Name: lncRNome
+RNA Type: Long RNA
+Overview: lncRNome is a comprehensive database for long non-coding RNAs in human. It has information related to over 1700 lncRNAs, with information related to chromosomal locations, biological functions, disease associations and protein-lncRNA interactions
+
+Search Methods:
+	Keyword: lncRNA names, Emsembl IDs, known targets, SNPs, diseases or any keyword term.
+	Similarity: search using the patterns Emsembl or HGNC.
+	TAG: search by lncRNA name.
+Source: Gencode, lncRNAdb, Ensembl, HGNC, Deepbase and NCBI.
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: General Information, Interactions and Processing, predicted peptides, Sequence and Structure, Variations and Conservation and Epigenetic Modifications.
+Reference: Bhartiya,D., Pal,K., Ghosh,S., et al. 2013
+PubmedID: 23846593.
+Year: 2013
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://genome.igib.res.in/lncRNome
+
+Database Name: miRdSNP
+RNA Type: miRNA
+Overview: miRdSNP provides A1:R4a comprehensive data source of dSNPs and robust tools for exploring their distance from miRNA target sites on the 3â€™UTRs of human genes. miRdSNP enables researchers to explore the molecular mechanism of gene dysregulation for dSNPs at posttranscriptional level. The current release includes 786 dSNP-disease associations for 630 unique dSNPs and 204 disease types.  miRdSNP annotates genes with experimentally confirmed targeting by miRNAs and indexes miRNA target sites predicted by TargetScan and PicTar as well as potential miRNA target sites newly generated by dSNPs. Searches can be dynamically filtered by gene name, miRBase ID, target prediction algorithm, disease, and any nucleotide distance between dSNPs and miRNA target sites. Results can be viewed at the sequence level showing the annotated locations for miRNA target sites and dSNPs on the entire 3â€™UTR sequences.
+Search Methods:
+	TAG: miRNA, Prediction Method, Disease
+	Tabular: refseqs that have both miRNA target sites and disease-associated SNPs; disease-associated SNPs harvested from PubMed
+	Keyword: gene, SNP, Distance (nt)
+Source: PubMed,UCSC Genome Browser, HapMap Project (LD), SNAP and data from the CEU (CEPH Utah Residents with Northern and Western European Ancestry) population, TargetScan 5.1, PicTar, miRBase, TarBase, miRTarBase, miRecords and miR2disease.
+Information Source: Literature, Manual curation.
+Information Content: 3'UTR Regions, Disease, Disease-associated SNPs, Single nucleotide polymorphisms, Target site.
+Reference: Andrew E. Bruno, Li Li, James L. Kalabus, Yuzhuo Pan, Aiming Yu, Zihua Hu
+PubmedID: 22276777.
+Year: 2012
+Multiple search: Yes
+Download: BED, Other.
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://mirdsnp.ccr.buffalo.edu/
+
+Database Name: mirEX
+RNA Type: miRNA
+Overview: mirEX is a platform for comparative analysis of primary microRNA expression data. RTâ€“qPCR-based gene expression profiles are stored in a universal and expandable database scheme and wrapped by an intuitive user-friendly interface.  The mirEX interface allows a simultaneous comparison of expression levels between various microRNA genes in diverse organs and developmental stages. Currently, mirEX integrates information about the expression profile of 190 Arabidopsis thaliana pri-miRNAs in seven different developmental stages: seeds, seedlings and various organs of mature plants. Additionally, by providing RNA structural models, publicly available deep sequencing results, experimental procedure details and careful selection of auxiliary data in the form of web links, mirEX can function as a one-stop solution for Arabidopsis microRNA information.
+Search Methods:
+	Keyword: search by miRNA name or miRNA families
+	TAG: search by miR families or development(al) stage(s).
+Source: In house experimental data (RT-PCR, qPCR and high-throughput platform), Pant et al. (19).
+Information Source: Experimental.
+Information Content: Arabidopsis thaliana, developmental stages, miRNA families, pri-miRNA expression.
+Reference: Bielewicz D, Dolata J, Zielezinski A, et al.
+PubmedID: 22013167.
+Year: 2012
+Multiple search: Yes
+Download: FASTA, Other.
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress).
+URL: http://bioinfo.amu.edu.pl/mirex
+
+Database Name: miRFANs
+RNA Type: miRNA
+Overview: miRFANs is an integrated database of Arabidopsis thaliana miRNAs which encompasses miRNA-target interactions, expression, transcription factor and their targets, expression profiles, genomic annotations and pathways, into a comprehensive database, and developed various statistical and mining tools. For miRNA targets, three predicted sets by three computational algorithms (psRNATarget, TargetAlign and UEA target-finder) and two experimentally validated sets (miRTarBase and TarBase) are collected. Each miRNA target is associated with gene ontology and pathway terms,together with the target site information and regulating miRNAs predicted by different computational methods.These associated terms may provide valuable insight for the functions of each miRNA.
+Search Methods:
+	Keyword: Keyword and gene type (miRNA or coding gene)
+Source: miR-Base, TAIR, psRNATarget, TargetAlign, TarBase, GEO, ASRP, PMRD, GO, KEGG, ACRIS, UCSC, Target-finder 
+Information Source: Experimental, In silico annotation, In silico annotation.
+Information Content: Arabidopsis thaliana, Database, function annotations, Plant microRNAs.
+Reference: Liu H, Jin T, Liao R, et al.
+PubmedID: 22583976.
+Year: 2012
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Arabidopsis Thaliana (Thale Cress), Oryza sativa (Rice), Cassava.
+URL: http://www.cassava-genome.cn/mirfans
+
+Database Name: sRNAdb
+RNA Type: small RNA
+Overview: sRNAdb is a database that was developed with the objective to help the users to understand sRNAâ€™s functional and phylogenetic relationships and to provide tools for data analysis and visualization. The public sRNAdb server contains 558 gram-positive genomes and plasmids as well as 9993 automatically predicted and 671 experimentally verified sRNAs. 
+Search Methods:
+	Similarity: Using BLASTn 
+	TAG: Based on different features according the snRNA: name, strand, condition, annotation, etc
+	Keyword: Based on the name of the snRNA or the reference
+	Genomic Location: Searches can be performed based on the up- or downstream distance to an sRNA of interest
+Source: PubMed, Springer
+Information Source: Experimental, In silico annotation.
+Information Content: Annotation, Genome locus.
+Reference: Pischimarov et al
+PubmedID: 22883983.
+Year: 2012
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://bioinfo.mikrobio.med.uni-giessen.de/sRNAdb
+
+Database Name: Ssa miRNAs DB
+RNA Type: miRNA
+Overview: Ssa miRNAs DB is a bioinformatics and manually curated database that aims to provide a comprehensive resource of  microRNAs in Altantic salmon, with a user friendly interface for a convenient retrieval of each entry by microRNA ID or target  gene. The current version of Ssa miRNAs DB involved the prediction of 41 and 266 homologous-based and novel microRNAs, respectively.
+Search Methods:
+	Keyword: Using the microRNA name, GenBank accession number or any free keyword
+Source: Unigene database of GenBank (http://www.ncbi.nlm.nih.gov/unigene), Gene Index (http://compbio.dfci.harvard.edu/tgi/), GRASP (http://web.uvic.ca/grasp/), miRBase (http://www.mirbase.org).
+Information Source: In silico annotation, In silico annotation.
+Information Content: Localization, microRNAs, Target, Target gene.
+Reference: Reyes et al
+PubmedID: 22493538.
+Year: 2012
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Salmo salar.
+URL: http://www.molgenv.com/ssa_mirnas_db_home.php
+
+Database Name: The Functional lncRNA Database
+RNA Type: Long RNA
+Overview: The Functional lncRNA Database is a repository of mammalian long non-protein-coding transcripts that have been experimentally shown to be both non-coding and functional.Â 
+Search Methods:
+	Keyword: LncRNA name
+	TAG: By selecting the specie of interest
+Source: Literature
+Information Source: Experimental, Literature.
+Information Content: Localization, Species specific.
+Reference: 
+PubmedID: Not Found
+Year: 
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse).
+URL: http://valadkhanlab.org/database
+
+Database Name: UCNEbase
+RNA Type: CNE
+Overview: UCNEbase (http://ccg.vital-it.ch/UCNEbase) is a comprehensive resource on the genomic organization and evolution of vertebrate UCNEs and ultra conserved non-coding elements regulatory blocks(UGRBs).  UCNEbase provides information on the evolution and genomic organization of 4351 UCNEs in multiple vertebrate species. Around half of these elements are  located within intergenic regions (2139) and the rest are located within non-coding parts of genes: introns (1713) and UTRs (499).
+Search Methods:
+	Keyword: Using the name or ID of each ultra conserved region, its length, a protein coding gene name, 
+	Genomic Location: By using the genomic coordinates for each organism
+	Density of ncRNAs: Based on the flaking distance of the ultra conserved region of interest
+Source: Prediction
+Information Source: In silico annotation, In silico annotation.
+Information Content: Conservation, Localization, Species specific, Target.
+Reference: Dimitrieva and Bucher
+PubmedID: 23193254.
+Year: 2012
+Multiple search: No
+Download: BED, Other.
+Genomic overview: No
+Organism: Unspecified.
+URL: http://ccg.vital-it.ch/UCNEbase
+
+Database Name: vHoT
+RNA Type: miRNA
+Overview: The viral miRNA host target (vHoT) database is a web-based tool that can search for mRNA targets of viral miRNAs. This database allows interspecies analysis and can be used to predict both cellular mRNA targets and viral mRNA targets of virus-derived miRNAs.
+Search Methods:
+	Keyword: By microRNA name or accession id
+	TAG: By organism and  microRNA name 
+Source: Prediction
+Information Source: In silico annotation, In silico annotation.
+Information Content: microRNAs, Species specific, Target gene.
+Reference: Kim et al
+PubmedID: 22160653.
+Year: 2012
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Macaca mulatta (Rhesus Monkey), Bos Taurus (Cattle), Viruses.
+URL: http://best.snu.ac.kr/vhot/
+
+Database Name: YM500
+RNA Type: miRNA
+Overview: YM500 is an Integrative small RNA Sequencing database for miRNA research and provides an integrative web interface for miRNA quantification (for known miRNAs in the miRBase R19), isomiR identification, arm switching discovery, and, most of all, novel miRNA predictions. This database also contains the results of meta-analysis from hundreds of public small RNA-Seq datasets and dozens of in-house ones.
+Search Methods:
+	Density of ncRNAs: By microRNA clusters for each organism
+	Genomic Location: By using the genomic coordinates for each organism
+	Keyword: By microRNA name or free text keyword
+Source: Small RNA sequencing, Experiment, Predictions
+Information Source: Experimental, In silico annotation, In silico annotation, Literature.
+Information Content: Expression, Literature, Next-generation sequencing, pri-miRNA expression.
+Reference: Cheng et al
+PubmedID: 23203880.
+Year: 2013
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: http://ngs.ym.edu.tw/ym500/
+
+Database Name: miRCancer
+RNA Type: miRNA
+Overview: The miRCancer is a database that has rule-based text mining approaches to extract miRNA and cancer association data. The associations are manually verified after automatic extraction from literature. miRCancer shows 878 associations between 236 microRNAs and 79 human cancers. The website enables clustering and chi-square analysis of miRNA sequences.
+Search Methods:
+	Keyword: miRNA name and/or cancer name
+Source: Literature
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Cancer, Disease, microRNA–cancer association, miRNA expressions profiles, Text mining.
+Reference: Xie et al
+PubmedID: 23325619.
+Year: 2013
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://mircancer.ecu.edu/
+
+Database Name: miRDeathDB
+RNA Type: miRNA
+Overview: The database miRDeathDB provides information for experimentally identified miRNAs and their targets in programmed cell death network. The Database records of five model species shows 210 associations of miRNAs and programmed cell death. It is possible restore genomic, proteomic and disease-associated data by links to external resources.
+Search Methods:
+	TAG: Search by miRNA symbol, gene symbol or organism
+Source: Literature
+Information Source: Literature, Manual curation.
+Information Content: Apoptosis, Autophagy, microRNAs, programmed cell death, Programmed necrosis.
+Reference: Jianzhen Xu and Yan-Hui Li
+PubmedID: 22743998.
+Year: 2012
+Multiple search: No
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Rattus norvegicus (Norway Rat), Mus musculus (House Mouse), Drosophila melanogaster (Common Fruit Fly), Xenopus tropicalis.
+URL: http://rna-world.org/mirdeathdb/
+
+Database Name: DIANA miRPath v.2.0
+RNA Type: miRNA
+Overview: DIANA-miRPath performs miRNA pathway analysis, providing accurate statistics, while being able to accommodate advanced pipelines. miRPath can utilize predicted miRNA targets provided by the DIANA-microT-CDS algorithm and/or experimentally validated miRNA interactions derived from DIANA-TarBase v6.0.
+Search Methods:
+	Keyword: by uploading a mirna  or a gene list
+	TAG: Pathway
+Source: Tarbase, MicroT-CDS
+Information Source: In silico annotation, Literature.
+Information Content: Pathway, Target gene.
+Reference: Vlachos IS, Kostoulas N, Vergoulis T, Georgakilas G, Reczko M, et al. (2012) DIANA miRPath v.2.0: investigating the combinatorial effect of microRNAs in pathways. Nucleic Acids Res 9656310: 1â€“7 doi:10.1093/nar/gks494.
+PubmedID: 22649059.
+Year: 2012
+Multiple search: Yes
+Download: Other.
+Genomic overview: No
+Organism: Homo sapiens (Human), Drosophila melanogaster (Common Fruit Fly), Caenorhabditis elegans.
+URL: http://www.microrna.gr/miRPathv2
+
+Database Name: DIANA-LncBase
+RNA Type: Long RNA
+Overview: DIANA-LncBase hosts transcriptome-wide experimentally verified and computationally predicted miRNA recognition elements (MREs) on human and mouse lncRNAs. T
+Search Methods:
+	Genomic Location: Chromosome coordinates
+	Keyword: miRNA name, lncRNA name
+Source: Literature and bioinformatics analyses
+Information Source: In silico annotation, In silico annotation, Literature.
+Information Content: Long RNA, microRNAs, Target RNA.
+Reference: Paraskevopoulou MD, Georgakilas G, Kostoulas N, Reczko M, Maragkakis M, Dalamagas TM, Hatzigeorgiou AG. DIANA-LncBase: experimentally verified and computationally predicted microRNA targets on long non-coding RNAs. Nucleic Acids Res. 2013;41:D239-D245
+PubmedID: 23193281.
+Year: 2013
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human), Mus musculus (House Mouse).
+URL: www.microrna.gr/LncBase
+
+Database Name: HNOCDB
+RNA Type: miRNA
+Overview: A user-friendly resource for researchers describing oncomiRs that cause head, neck and oral cancer,
+Search Methods:
+	Tabular: Browse MiRNAs associated with head and neck and oral cancer by carcinoma type 
+Source: Literature
+Information Source: Literature, Manual curation.
+Information Content: Cancer, Disease, Experimental Evidence, Literature, microRNAs.
+Reference: Mitra S; Das S; Das S; Ghosal S; Chakrabarti J. HNOCDB: a comprehensive database of genes and miRNAs relevant to head and neck and oral cancer. Oral Oncol; 48(2): 117-9, 2012 Feb.
+PubmedID: 22024348.
+Year: 2012
+Multiple search: No
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://gyanxet.com/hno.html
+
+Database Name: microPIR
+RNA Type: miRNA
+Overview: microPIR is an integrated database for microRNA target sites within human promoter sequences. This database aims to collect genome-wide predicted microRNA target sites located within promoter regions of human genome, incorporated with considerable resources of associated genomic information and functional annotation.
+Search Methods:
+	Keyword: Search by target gene name, miRNA name (with flexible  statistical parameters)
+Source: UCSC Genome Browser
+Information Source: In silico annotation, Literature, Manual curation.
+Information Content: Disease, Interaction, microRNAs, Pathway, Promoter.
+Reference: Piriyapongsa J, Bootchai C, Ngamphiw C, Tongsima S. microPIR: An Integrated Database of MicroRNA Target Sites within Human Promoter Sequences. PLoS ONE. 2012;15:33888. doi: 10.1371/journal.pone.0033888.
+PubmedID: 22439011.
+Year: 2012
+Multiple search: No
+Download: BED.
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://www4a.biotec.or.th/micropir
+
+Database Name: miR-EdiTar
+RNA Type: Multiple classes
+Overview:  miR-EdiTar is a database of predicted Adenosine-to-Inosine edited miRNA binding sites.
+Search Methods:
+	TAG: Search by miRNA list and search by target list
+Source: In-house prediction, DARNED database
+Information Source: In silico annotation.
+Information Content: Folding Energy, microRNAs.
+Reference: Lagana A, Paone A, Veneziano D, et al. miR-EdiTar: a database of predicted A-to-I edited miRNA target sites. Bioinformatics. 2012;28(23):3166â€“3168. 
+PubmedID: 23044546.
+Year: 2012
+Multiple search: Yes
+Download: No
+Genomic overview: No
+Organism: Homo sapiens (Human).
+URL: http://microrna.osumc.edu/mireditar
+
+Database Name: AthaMap
+RNA Type: small RNA
+Overview: The AthaMap database generates a genome-wide map for putative transcription factor binding sites for A. thaliana. When analyzing transcriptional regulation using AthaMap it may be important to learn which genes are also post-transcriptionally regulated by inhibitory RNAs. Therefore, a unified database for transcriptional and post-transcriptional regulation will be highly useful for the analysis of gene expression regulation
+Search Methods:
+	Keyword: Search by Chromosome position, AGI and % Restriction to highly conserved TF binding sites (0-100).
+	TAG: search by Chromosome
+Source: Annotation, Literature
+Information Source: In silico annotation, Literature.
+Information Content: Annotation, literature references.
+Reference: BÃ¼low L., BolÃ­var J., et al (2012) â€˜MicroRNA Targetsâ€™, a new AthaMap web-tool for genome-wide identification of miRNA targets in Arabidopsis thaliana. BioData Mining 2012, 5:7.
+PubmedID: 22800758.
+Year: 2012
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Arabidopsis Thaliana (Thale Cress).
+URL: http://www.athamap.de/
+
+Database Name: RNAiAtlas
+RNA Type: siRNA
+Overview: The RNAiAtlas has been created for exploration, analysis and distribution of large scale RNAi libraries (currently limited to the human genome) with their latest annotation (including former history) but in addition it contains also specific on-target analysis results (design quality, side effects, off-targets).
+Search Methods:
+	Keyword: search by Gene symbol, Gene id or Sirna id.
+	Similarity: search by siRNA Sequence 
+	TAG: search by annotation year or library attributes
+Source: The database integrates the information of the siRNA reagents from three human genome-wide libraries
+Information Source: Experimental.
+Information Content: Annotation, Silencing machinary, Silencing process, Target, Target RNA.
+Reference: Mazur S., Csucs G., Kozak K., 2012.  RNAiAtlas: a database for RNAi (siRNA) libraries and their specificity. Database (Oxford) 2012: bas027. [PMC free article] [PubMed]
+PubmedID: 22700939.
+Year: 2012
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Homo sapiens (Human).
+URL: http://www.rnaiatlas.ethz.ch
+
+Database Name: TRiP
+RNA Type: Multiple classes
+Overview: A pilot project supported by the HHMI/Janelia Farm Visitor Program between the laboratories of N. Perrimon, C. Zuker and G. Rubin has generated nearly 2,300 hairpin lines. Genes to be targeted are selected based on the BDSC mandate of one mutation per gene, the needs of screeners at the Drosophila RNAi Screening Center (DRSC), and the needs of the Drosophila community for in vivo phenotypic analyses. The resource will be housed in the TRiP facility at Harvard Medical School (production and for screening) and transferred on a regular schedule to the BDSC (for distribution).
+Search Methods:
+	Similarity: search by Gene Symbol
+Source: In-house experiments
+Information Source: Experimental.
+Information Content: Annotation, Expression profiles, Sequence.
+Reference: Dietzl, G. et al. (2007) A genome-wide transgenic RNAi library for conditional gene inactivation in Drosophila. Nature 448, 151-156.
+PubmedID: 22745315.
+Year: 2007
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Drosophila melanogaster (Common Fruit Fly).
+URL: http://www.flyrnai.org/TRiP-HOME.html
+
+Database Name: VIRsiRNAdb
+RNA Type: siRNA
+Overview: VIRsiRNAdb is a curated database of experimentally validated viral siRNA/shRNA targeting diverse genes of 42 important human viruses including influenza, SARS and Hepatitis viruses. 
+Search Methods:
+	Keyword: virsiRNAdb ID, siRNA Sequence, Virus Name,Target Region, Cell Line, Test Object, NCBI Accession, PubMed(PMID)
+Source: Pubmed, Submitted data
+Information Source: Experimental, Literature.
+Information Content: Cell type, Sequence, Silencing process.
+Reference: Thakur N et al, 2011.
+PubmedID: 22139916.
+Year: 2011
+Multiple search: Yes
+Download: No
+Genomic overview: Yes
+Organism: Viruses.
+URL: http://crdd.osdd.net/servers/virsirnadb
