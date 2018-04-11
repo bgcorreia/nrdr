@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
 
-    nginx_nrdr:
+    apache_nrdr:
         build: ./apache-php
         container_name: ncrnadatabases_webserver
         restart: always

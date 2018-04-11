@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
 
-    nginx_nrdr:
+    apache_nrdr:
         build: ./apache-php
         ports:
             - "80:80"
