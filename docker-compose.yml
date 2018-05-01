@@ -3,11 +3,11 @@ version: "3.4"
 services:
 
     apache_nrdr:
-        build: ./apache-php
+        build: ./build/apache-php
         container_name: ncrnadatabases_webserver
         restart: always
         volumes:
-            - ./front_files:/var/www/html
+            - ./volumes/frontend:/var/www/html
         depends_on:
              - db_nrdr
         networks:
@@ -15,11 +15,11 @@ services:
             - db
 
     db_nrdr:
-        build: ./db_config
+        build: ./build/db
         container_name: nrdr_db
         restart: always
         volumes:
-            - ./db_files:/var/lib/mysql
+            - ./volumes/db:/var/lib/mysql
         environment:
             - MYSQL_RANDOM_ROOT_PASSWORD=YES
             - MYSQL_DATABASE=${DB_NAME}
