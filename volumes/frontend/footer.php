@@ -1,9 +1,19 @@
 <div id="footer">
     <div class="container" id="imgFooter">
-        <img class="hidden-xs" src="<?php echo BASE_URL ?>img/usp.jpg">
-        <img class="hidden-xs" src="<?php echo BASE_URL ?>img/utfpr.jpg">
-        <img class="hidden-xs" src="<?php echo BASE_URL ?>img/uchile.jpg">
-        <img class="hidden-xs" src="<?php echo BASE_URL ?>img/accdis.jpg">
+	<div class="row">
+        	<div class="col-md-3 col-xs-6">
+		        <img src="<?php echo BASE_URL ?>img/usp_nr.jpg">
+		    </div>
+		    <div class="col-md-3 col-xs-6">
+		        <img src="<?php echo BASE_URL ?>img/utfpr_nr.jpg">
+		    </div>
+		    <div class="col-md-3 col-xs-6">
+		        <img src="<?php echo BASE_URL ?>img/uchile_nr.jpg">
+		    </div>
+		    <div class="col-md-3 col-xs-6">
+		        <img src="<?php echo BASE_URL ?>img/accdis_nr.jpg">
+		    </div>
+		</div>
     </div>
 </div>
 

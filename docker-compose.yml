@@ -4,14 +4,14 @@ services:
 
     apache_nrdr:
         build: ./build/apache-php
-        container_name: ncrnadatabases_webserver
+        container_name: nrdr_webserver
         restart: always
         volumes:
             - ./volumes/frontend:/var/www/html
         depends_on:
              - db_nrdr
         networks:
-            - webserver
+            - gatewayapps_proxy
             - db
 
     db_nrdr:
@@ -30,4 +30,5 @@ services:
 
 networks:
     db:
-    webserver:
+    gatewayapps_proxy:
+        external: true
