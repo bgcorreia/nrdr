@@ -79,7 +79,7 @@
 
             <div class="row" style="margin-top: -17px">
                 <div class="col-md-12 text-right btndiv">
-                    <button id="fat-btn" type="submit" class="btn btn-primary lbtn" data-loading-text="Loading...">
+                    <button id="fat-btn" type="submit" class="btn btn-primary" data-loading-text="Loading...">
                         Run Blast
                     </button>
                     <button type="reset" class="btn btn-default">Clear</button>

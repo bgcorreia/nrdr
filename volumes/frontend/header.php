@@ -34,14 +34,13 @@
             <ul class="nav navbar-nav navbar-right">
                 <li id="menu-index">     <a href="https://ncrnadatabases.org">Home</a></li>
                 <li id="menu-about">     <a href="<?php echo BASE_URL ?>about.php">About NRDR</a></li>
-                <li id="menu-search">     <a href="<?php echo BASE_URL ?>search.php">Search</a></li>
-                <!--<li class="dropdown">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search</a>
                     <ul class="dropdown-menu" role="menu">
                         <li id="menu-search" class="submenu">    <a href="<?php echo BASE_URL ?>search.php">Advanced Search</a></li>
                         <li id="menu-sequences" class="submenu">    <a href="<?php echo BASE_URL ?>sequences.php">Sequences</a></li>
                     </ul>
-                </li>-->
+                </li>
                 <li id="menu-browser">   <a href="<?php echo BASE_URL ?>browser.php">Browser</a></li>
                 <li id="menu-statistics"><a href="<?php echo BASE_URL ?>statistics.php">Statistics</a></li>
                 <li id="menu-team">   <a href="<?php echo BASE_URL ?>team.php">Team</a></li>
