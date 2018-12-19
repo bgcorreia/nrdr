@@ -128,10 +128,18 @@ class ncrnaMain {
     public function getOrganismForAjaxDownloadPage($input, $iddb) {
         $array = null;
         $input = str_replace("'", "", str_replace('"', '', $input));
-        $query = "SELECT DISTINCT o.Name FROM organism as o "
-                . " RIGHT JOIN dborganism as b ON b.IDOrganism = o.IDOrganism"
-                . " RIGHT JOIN dbncrna as d ON d.IDDB = b.IDDB"
-                . " WHERE d.haveSequence = 1 AND b.IDDB = {$iddb} AND o.Name LIKE '" . $input . "%' AND o.Name NOT LIKE '%,%' ORDER BY o.Name ASC limit 8";
+
+	if($iddb){
+	        $query = "SELECT DISTINCT o.Name FROM organism as o "
+        	        . " RIGHT JOIN dborganism as b ON b.IDOrganism = o.IDOrganism"
+                	. " RIGHT JOIN dbncrna as d ON d.IDDB = b.IDDB"
+	                . " WHERE d.haveSequence = 1 AND b.IDDB = {$iddb} AND o.Name LIKE '" . $input . "%' AND o.Name NOT LIKE '%,%' ORDER BY o.Name ASC limit 8";
+	} else {
+	        $query = "SELECT DISTINCT o.Name FROM organism as o "
+        	        . " RIGHT JOIN dborganism as b ON b.IDOrganism = o.IDOrganism"
+                	. " RIGHT JOIN dbncrna as d ON d.IDDB = b.IDDB"
+	                . " WHERE d.haveSequence = 1 AND o.Name LIKE '" . $input . "%' AND o.Name NOT LIKE '%,%' ORDER BY o.Name ASC limit 8";
+	}	
 
         $result = $this->banco->query($query);
         while ($value = $result->fetch_array(MYSQLI_ASSOC)) {
