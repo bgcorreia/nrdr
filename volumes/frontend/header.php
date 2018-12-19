@@ -38,7 +38,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search</a>
                     <ul class="dropdown-menu" role="menu">
                         <li id="menu-search" class="submenu">    <a href="<?php echo BASE_URL ?>search.php">Advanced Search</a></li>
-                        <li id="menu-sequences" class="submenu">    <a href="<?php echo BASE_URL ?>sequences.php">Sequences</a></li>
+                        <li id="menu-sequences" class="submenu">    <a href="<?php echo BASE_URL ?>download.php">Sequences Download</a></li>
                     </ul>
                 </li>
                 <li id="menu-browser">   <a href="<?php echo BASE_URL ?>browser.php">Browser</a></li>
