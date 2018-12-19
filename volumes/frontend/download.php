@@ -79,7 +79,7 @@
 
 
                         <button id="fat-btn" type="button" style="width: 370px!important" class="btn btn-primary lbtn" data-loading-text="Generating a download file, it may take a few minutes">
-                            Download sequences
+                            Download RNA sequences
                         </button>
 
                     </div>
